@@ -51,7 +51,7 @@ OVERALL: PASS -- ref.xoodoo() matches the independent C++ reference (xoodyak-mas
 | sigma | traces | basis |
 |---|---|---|
 | 0.5  | 7   | n=100 |
-| 1.0  | 25–30 | 100% first seen at 25 traces (n=50); also confirmed at 30 traces (n=100, the more statistically robust point — 20 traces only reaches 97%) |
+| 1.0  | 30  | n=100, clean 100%. (An n=50 extended-check spot-sample also found 100% at 25 traces, but that same check re-sampled 30 traces independently and got only 98% (49/50) — 25 is boundary noise from a smaller sample, not a firmer result, so the larger n=100 point at 30 traces is the one reported.) |
 | 1.5  | 60  | n=50, consistent with 99% already at 50 traces (n=100) |
 | 2.0  | 150 | n=50; 75 traces only reaches 94%, 100 traces only reaches 98% |
 | 2.25 | 150 | n=50; 100 traces only reaches 96% |

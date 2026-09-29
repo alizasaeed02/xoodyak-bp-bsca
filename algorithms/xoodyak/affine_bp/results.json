@@ -366,10 +366,10 @@
         "n": 50
       }
     },
-    "note": "base_grid covers 1-50 traces at n=100/point; extended check covers 55-200 traces at n=50/point, run specifically to pin down the exact sigma=2.0/2.25 crossover after an earlier n=50 spot-check gave an over-optimistic estimate (75 and 100 traces respectively) that this larger, saved run does not confirm.",
+    "note": "base_grid covers 1-50 traces at n=100/point; extended check covers 55-200 traces at n=50/point, run specifically to pin down the exact sigma=2.0/2.25 crossover after an earlier n=50 spot-check gave an over-optimistic estimate (75 and 100 traces respectively) that this larger, saved run does not confirm. sigma=1.0 is reported as 30, not the smaller n=50 extended-check value of 25: base_grid's 1.0_30 is a clean 100% at n=100, whereas the n=50 extended check found 1.0_25 at 100% but 1.0_30 at only 98% (49/50) on independently re-sampled seeds -- 25 is boundary noise from a smaller sample, not a firmer result, so the larger n=100 point (30) is used.",
     "smallest_confirmed_100pct_trace_count": {
       "0.5": 7,
-      "1.0": 25,
+      "1.0": 30,
       "1.5": 60,
       "2.0": 150,
       "2.25": 150
