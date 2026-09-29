@@ -1,0 +1,113 @@
+{
+  "source": "https://github.com/keccaksasca/keccaksasca (Kannwischer, Pessl, Primas, TCHES 2020/3), authors' own code, run unmodified",
+  "scenario": "8-bit device, 128-bit secret, Keccak-f[1600], 2 rounds",
+  "leakage_model": "noisy Hamming weight, L = HW(x) + N(0, sigma)",
+  "success_criterion": "all bits of the secret recovered exactly (numerrors_in == 0 in the authors' own LOG output)",
+  "random_input": {
+    "0.5": {
+      "rate": 1.0,
+      "n_valid": 99,
+      "n_timeout": 1
+    },
+    "1.0": {
+      "rate": 1.0,
+      "n_valid": 100,
+      "n_timeout": 0
+    },
+    "1.5": {
+      "rate": 1.0,
+      "n_valid": 100,
+      "n_timeout": 0
+    },
+    "2.0": {
+      "rate": 0.9797979797979798,
+      "n_valid": 99,
+      "n_timeout": 1
+    },
+    "2.25": {
+      "rate": 0.69,
+      "n_valid": 100,
+      "n_timeout": 0
+    },
+    "2.5": {
+      "rate": 0.23,
+      "n_valid": 100,
+      "n_timeout": 0
+    },
+    "2.75": {
+      "rate": 0.03,
+      "n_valid": 100,
+      "n_timeout": 0
+    },
+    "3.0": {
+      "rate": 0.0,
+      "n_valid": 100,
+      "n_timeout": 0
+    }
+  },
+  "all_zero_input": {
+    "0.25": {
+      "rate": 1.0,
+      "n_valid": 100,
+      "n_timeout": 0
+    },
+    "0.5": {
+      "rate": 1.0,
+      "n_valid": 100,
+      "n_timeout": 0
+    },
+    "0.75": {
+      "rate": 1.0,
+      "n_valid": 99,
+      "n_timeout": 1
+    },
+    "1.0": {
+      "rate": 1.0,
+      "n_valid": 100,
+      "n_timeout": 0
+    },
+    "1.25": {
+      "rate": 0.9897959183673469,
+      "n_valid": 98,
+      "n_timeout": 2
+    },
+    "1.5": {
+      "rate": 0.8877551020408163,
+      "n_valid": 98,
+      "n_timeout": 2
+    },
+    "1.75": {
+      "rate": 0.5510204081632653,
+      "n_valid": 98,
+      "n_timeout": 2
+    },
+    "2.0": {
+      "rate": 0.25252525252525254,
+      "n_valid": 99,
+      "n_timeout": 1
+    },
+    "2.25": {
+      "rate": 0.050505050505050504,
+      "n_valid": 99,
+      "n_timeout": 1
+    },
+    "2.5": {
+      "rate": 0.01,
+      "n_valid": 100,
+      "n_timeout": 0
+    },
+    "2.75": {
+      "rate": 0.0,
+      "n_valid": 100,
+      "n_timeout": 0
+    },
+    "3.0": {
+      "rate": 0.0,
+      "n_valid": 100,
+      "n_timeout": 0
+    }
+  },
+  "n_per_sigma": 100,
+  "timeout_seconds": 900,
+  "note": "random_input used sigma in [0.5, 1.0, 1.5, 2.0, 2.25, 2.5, 2.75, 3.0]; all_zero_input additionally covers [0.25, 0.75, 1.25, 1.75]. n_valid may be < n_per_sigma where a run hit the timeout (recorded, not silently dropped)."
+}
