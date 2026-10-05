@@ -1,32 +1,41 @@
 # Blind Side-Channel Attack on Xoodyak Using Belief Propagation
 
-Code release accompanying the paper "Blind Side-Channel Attack on Xoodyak Using Belief Propagation", including the Elephant and Sparkle reproductions used for cross-cipher comparison.
+Code for the paper *"Blind Side-Channel Attack on Xoodyak Using Belief Propagation and
+SASCA"*.
+
+This repository implements a blind side-channel attack (BSCA) on Xoodyak: it models the
+nonlinear χ step of the Xoodoo permutation as a factor graph and recovers the secret key
+from noisy Hamming-weight leakage using belief propagation (BP). Before attacking Xoodyak,
+the same belief-propagation machinery is validated by reproducing three published attacks:
+
+- **Elephant** and **Sparkle** — BP-based blind side-channel attacks, reproduced from
+  Sarry et al.
+- **Keccak** — a single-trace attack, reproduced using the original authors'
+  (Kannwischer, Pessl and Primas) own unmodified code.
+
+That Keccak reproduction is what led to the paper's main finding: naively copying
+Keccak's whole-round BP design onto Xoodyak's key-load is actually wrong, because
+Xoodyak's linear diffusion layer becomes a fixed, exactly invertible map that should be
+solved with linear algebra, not belief propagation. The Xoodyak attack here uses the
+corrected design and recovers the full 128-bit key, both from a single trace and from
+multiple repeated traces.
 
 ## Setup
 
-    pip install -r requirements.txt
+```
+pip install -r requirements.txt
+```
 
 ## Running
 
-Each script is run from its own directory:
+```
+cd algorithms/xoodyak/scalib && python xoodyak_scalib_attack.py
+cd algorithms/elephant       && python run_experiment.py
+cd algorithms/sparkel        && python run_experiment.py
+```
 
-    cd algorithms/xoodyak/scalib && python xoodyak_scalib_attack.py
-    cd algorithms/elephant       && python run_experiment.py
-    cd algorithms/sparkel        && python run_experiment.py
-
-- **Xoodyak**: attacks the χ (chi) step of Xoodyak's Xoodoo permutation using SCALib's belief-propagation engine.
-- **Elephant**: attacks the LFSR-based keystream generator using a byte-level BP engine.
-- **Sparkle**: attacks the ARX addition inside Sparkle's Alzette box using a bit-level BP engine.
-
-Each script saves its own results (ranks, success flags, timing) into its directory when run.
-
-## What's excluded and why
-
-- `elephant_bit_bp.py` — an earlier, separate bit-level BP implementation considered during drafting. Not used by any script in this release.
-- `luo_recovery/` — belongs to a separate paper.
-- `.venv/`, `__pycache__/`, `*.pyc` — environment/build artifacts.
-- Vendored reference code (`Xoodoo-master/`, `sparkle-master/`, `SCALib-main/`, `isap/`, `ascon/`) — third-party sources; SCALib is listed in `requirements.txt` as a pip dependency instead of being vendored.
-- Superseded/toy Xoodyak pipelines (`codde/attack.py`, `codde/bp_engine.py`, root-level `xoodyak_bp_*.py` / `xoodyak_rank_table_*.py`) — predate the final SCALib-based pipeline.
+Each script saves its own results (ranks, success rates, timing) into its directory when
+run.
 
 ## License
 
