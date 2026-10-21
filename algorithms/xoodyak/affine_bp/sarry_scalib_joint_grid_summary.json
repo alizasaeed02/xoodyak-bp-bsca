@@ -1,0 +1,507 @@
+{
+ "engine": "SCALib 0.6.4 FactorGraph/BPState.bp_loopy",
+ "n_iters": 10,
+ "initialize_states": true,
+ "graph": "sarry_scalib_core.py (unmodified)",
+ "readout": "joint key-byte factor belief",
+ "n_keys": 1000,
+ "sigmas": [
+  0.01,
+  0.1,
+  0.15,
+  0.2,
+  0.3,
+  0.5,
+  0.7,
+  1.0
+ ],
+ "tie_convention": "ties broken uniformly at random, reported in expectation (rank = better + (ties+1)/2). The stored per-trial value is this expected rank minus 1. top-k in this table counts expected rank <= k; this equals the random-tie-break top-k wherever the true value has no tie. Ties are rare in the joint read-out: 23 of 256000 stored ranks are half-integers, and an exact recount on 800 of these trials found 0 ties in 12800 bytes (sarry_scalib_diag2_step4.json). The two reference rows use the same convention.",
+ "seed_formula": "3000 + round(sigma*100)*1000 + k, k=0..999",
+ "near_noiseless_row_sigma": 0.01,
+ "near_noiseless_all_16_bytes_rank1": false,
+ "reference_random_guess": {
+  "mean_rank": 128.5,
+  "top1_pct": 0.390625,
+  "top5_pct": 1.953125,
+  "top10_pct": 3.90625
+ },
+ "reference_key_byte_hw_only": {
+  "mean_rank": 25.63671875,
+  "std_rank_random_tiebreak": 18.180004344977437,
+  "top1_pct": 3.515625,
+  "top5_pct": 14.453125,
+  "top10_pct": 26.5625,
+  "top_pct_if_ties_get_average_rank": {
+   "top1": 0.78125,
+   "top5": 7.03125,
+   "top10": 7.03125
+  },
+  "note": "top-k % assume ties broken at random; mean rank is the same under both conventions"
+ },
+ "summary": {
+  "A_0.01": {
+   "joint": {
+    "keys": 1000,
+    "nan_trials": 0,
+    "valid_trials": 1000,
+    "key_bytes": 16000,
+    "mean_rank": 14.7634375,
+    "std_rank": 14.427048405117167,
+    "top1_pct": 11.206249999999999,
+    "top5_pct": 35.0875,
+    "top10_pct": 52.675000000000004,
+    "full_key": 0,
+    "mean_runtime_s_per_key": 0.214585416000089
+   },
+   "marginal_old_readout": {
+    "keys": 1000,
+    "nan_trials": 0,
+    "valid_trials": 1000,
+    "key_bytes": 16000,
+    "mean_rank": 47.3360625,
+    "std_rank": 52.19227672267319,
+    "top1_pct": 4.7625,
+    "top5_pct": 17.0875,
+    "top10_pct": 28.212500000000002,
+    "full_key": 0,
+    "mean_runtime_s_per_key": 0.214585416000089
+   },
+   "nan_seeds": []
+  },
+  "A_0.1": {
+   "joint": {
+    "keys": 1000,
+    "nan_trials": 0,
+    "valid_trials": 1000,
+    "key_bytes": 16000,
+    "mean_rank": 14.7064375,
+    "std_rank": 14.334804971069323,
+    "top1_pct": 11.44375,
+    "top5_pct": 34.78125,
+    "top10_pct": 52.325,
+    "full_key": 0,
+    "mean_runtime_s_per_key": 0.25418005219999756
+   },
+   "marginal_old_readout": {
+    "keys": 1000,
+    "nan_trials": 0,
+    "valid_trials": 1000,
+    "key_bytes": 16000,
+    "mean_rank": 47.1178125,
+    "std_rank": 51.65822836407423,
+    "top1_pct": 4.0687500000000005,
+    "top5_pct": 16.950000000000003,
+    "top10_pct": 27.86875,
+    "full_key": 0,
+    "mean_runtime_s_per_key": 0.25418005219999756
+   },
+   "nan_seeds": []
+  },
+  "A_0.15": {
+   "joint": {
+    "keys": 1000,
+    "nan_trials": 0,
+    "valid_trials": 1000,
+    "key_bytes": 16000,
+    "mean_rank": 15.035125,
+    "std_rank": 14.492576245594673,
+    "top1_pct": 10.9375,
+    "top5_pct": 33.875,
+    "top10_pct": 51.24999999999999,
+    "full_key": 0,
+    "mean_runtime_s_per_key": 0.24816224059966044
+   },
+   "marginal_old_readout": {
+    "keys": 1000,
+    "nan_trials": 0,
+    "valid_trials": 1000,
+    "key_bytes": 16000,
+    "mean_rank": 47.8950625,
+    "std_rank": 51.93163342916429,
+    "top1_pct": 4.33125,
+    "top5_pct": 16.31875,
+    "top10_pct": 27.0625,
+    "full_key": 0,
+    "mean_runtime_s_per_key": 0.24816224059966044
+   },
+   "nan_seeds": []
+  },
+  "A_0.2": {
+   "joint": {
+    "keys": 1000,
+    "nan_trials": 0,
+    "valid_trials": 1000,
+    "key_bytes": 16000,
+    "mean_rank": 15.2898125,
+    "std_rank": 15.290828826942109,
+    "top1_pct": 10.46875,
+    "top5_pct": 34.2,
+    "top10_pct": 51.4625,
+    "full_key": 0,
+    "mean_runtime_s_per_key": 0.24923277100009728
+   },
+   "marginal_old_readout": {
+    "keys": 1000,
+    "nan_trials": 0,
+    "valid_trials": 1000,
+    "key_bytes": 16000,
+    "mean_rank": 47.409625,
+    "std_rank": 51.763455568184156,
+    "top1_pct": 4.29375,
+    "top5_pct": 16.8,
+    "top10_pct": 27.3625,
+    "full_key": 0,
+    "mean_runtime_s_per_key": 0.24923277100009728
+   },
+   "nan_seeds": []
+  },
+  "A_0.3": {
+   "joint": {
+    "keys": 1000,
+    "nan_trials": 0,
+    "valid_trials": 1000,
+    "key_bytes": 16000,
+    "mean_rank": 18.9265,
+    "std_rank": 20.328882722619067,
+    "top1_pct": 8.68125,
+    "top5_pct": 30.2625,
+    "top10_pct": 46.54375,
+    "full_key": 0,
+    "mean_runtime_s_per_key": 0.30581735180012765
+   },
+   "marginal_old_readout": {
+    "keys": 1000,
+    "nan_trials": 0,
+    "valid_trials": 1000,
+    "key_bytes": 16000,
+    "mean_rank": 49.0334375,
+    "std_rank": 52.106071569766165,
+    "top1_pct": 3.5562499999999995,
+    "top5_pct": 14.662500000000001,
+    "top10_pct": 25.23125,
+    "full_key": 0,
+    "mean_runtime_s_per_key": 0.30581735180012765
+   },
+   "nan_seeds": []
+  },
+  "A_0.5": {
+   "joint": {
+    "keys": 1000,
+    "nan_trials": 0,
+    "valid_trials": 1000,
+    "key_bytes": 16000,
+    "mean_rank": 29.887625,
+    "std_rank": 30.92859715311018,
+    "top1_pct": 6.2875,
+    "top5_pct": 22.38125,
+    "top10_pct": 35.081250000000004,
+    "full_key": 0,
+    "mean_runtime_s_per_key": 0.31133304409995616
+   },
+   "marginal_old_readout": {
+    "keys": 1000,
+    "nan_trials": 0,
+    "valid_trials": 1000,
+    "key_bytes": 16000,
+    "mean_rank": 54.61225,
+    "std_rank": 55.32659984074116,
+    "top1_pct": 2.75,
+    "top5_pct": 13.25,
+    "top10_pct": 22.818749999999998,
+    "full_key": 0,
+    "mean_runtime_s_per_key": 0.31133304409995616
+   },
+   "nan_seeds": []
+  },
+  "A_0.7": {
+   "joint": {
+    "keys": 1000,
+    "nan_trials": 0,
+    "valid_trials": 1000,
+    "key_bytes": 16000,
+    "mean_rank": 39.63975,
+    "std_rank": 39.48481632143551,
+    "top1_pct": 4.64375,
+    "top5_pct": 16.91875,
+    "top10_pct": 27.6875,
+    "full_key": 0,
+    "mean_runtime_s_per_key": 0.3107000194997527
+   },
+   "marginal_old_readout": {
+    "keys": 1000,
+    "nan_trials": 0,
+    "valid_trials": 1000,
+    "key_bytes": 16000,
+    "mean_rank": 57.830625,
+    "std_rank": 55.902461368971714,
+    "top1_pct": 2.175,
+    "top5_pct": 11.325000000000001,
+    "top10_pct": 19.818749999999998,
+    "full_key": 0,
+    "mean_runtime_s_per_key": 0.3107000194997527
+   },
+   "nan_seeds": []
+  },
+  "A_1.0": {
+   "joint": {
+    "keys": 1000,
+    "nan_trials": 0,
+    "valid_trials": 1000,
+    "key_bytes": 16000,
+    "mean_rank": 54.07275,
+    "std_rank": 50.233824087336814,
+    "top1_pct": 2.8375,
+    "top5_pct": 11.4625,
+    "top10_pct": 20.20625,
+    "full_key": 0,
+    "mean_runtime_s_per_key": 0.3021339710001775
+   },
+   "marginal_old_readout": {
+    "keys": 1000,
+    "nan_trials": 0,
+    "valid_trials": 1000,
+    "key_bytes": 16000,
+    "mean_rank": 65.294625,
+    "std_rank": 58.92500484607002,
+    "top1_pct": 1.6812500000000001,
+    "top5_pct": 8.387500000000001,
+    "top10_pct": 15.568750000000001,
+    "full_key": 0,
+    "mean_runtime_s_per_key": 0.3021339710001775
+   },
+   "nan_seeds": []
+  },
+  "B_0.01": {
+   "joint": {
+    "keys": 1000,
+    "nan_trials": 0,
+    "valid_trials": 1000,
+    "key_bytes": 16000,
+    "mean_rank": 24.726,
+    "std_rank": 18.01160959631315,
+    "top1_pct": 3.89375,
+    "top5_pct": 15.525,
+    "top10_pct": 28.09375,
+    "full_key": 0,
+    "mean_runtime_s_per_key": 0.3390450096000568
+   },
+   "marginal_old_readout": {
+    "keys": 1000,
+    "nan_trials": 0,
+    "valid_trials": 1000,
+    "key_bytes": 16000,
+    "mean_rank": 67.20528125,
+    "std_rank": 56.4287606764795,
+    "top1_pct": 0.8687500000000001,
+    "top5_pct": 4.6,
+    "top10_pct": 9.18125,
+    "full_key": 0,
+    "mean_runtime_s_per_key": 0.3390450096000568
+   },
+   "nan_seeds": []
+  },
+  "B_0.1": {
+   "joint": {
+    "keys": 1000,
+    "nan_trials": 0,
+    "valid_trials": 1000,
+    "key_bytes": 16000,
+    "mean_rank": 25.14103125,
+    "std_rank": 18.05639258854114,
+    "top1_pct": 3.58125,
+    "top5_pct": 15.21875,
+    "top10_pct": 27.38125,
+    "full_key": 0,
+    "mean_runtime_s_per_key": 0.35113138320003057
+   },
+   "marginal_old_readout": {
+    "keys": 1000,
+    "nan_trials": 0,
+    "valid_trials": 1000,
+    "key_bytes": 16000,
+    "mean_rank": 67.93396875,
+    "std_rank": 56.59828011299481,
+    "top1_pct": 0.7875,
+    "top5_pct": 4.44375,
+    "top10_pct": 8.9,
+    "full_key": 0,
+    "mean_runtime_s_per_key": 0.35113138320003057
+   },
+   "nan_seeds": []
+  },
+  "B_0.15": {
+   "joint": {
+    "keys": 1000,
+    "nan_trials": 0,
+    "valid_trials": 1000,
+    "key_bytes": 16000,
+    "mean_rank": 25.3004375,
+    "std_rank": 18.19248951651735,
+    "top1_pct": 3.5000000000000004,
+    "top5_pct": 14.906249999999998,
+    "top10_pct": 27.3625,
+    "full_key": 0,
+    "mean_runtime_s_per_key": 0.35728837880010544
+   },
+   "marginal_old_readout": {
+    "keys": 1000,
+    "nan_trials": 0,
+    "valid_trials": 1000,
+    "key_bytes": 16000,
+    "mean_rank": 68.4975,
+    "std_rank": 56.80010447833701,
+    "top1_pct": 0.79375,
+    "top5_pct": 4.268750000000001,
+    "top10_pct": 8.5,
+    "full_key": 0,
+    "mean_runtime_s_per_key": 0.35728837880010544
+   },
+   "nan_seeds": []
+  },
+  "B_0.2": {
+   "joint": {
+    "keys": 1000,
+    "nan_trials": 0,
+    "valid_trials": 1000,
+    "key_bytes": 16000,
+    "mean_rank": 25.7796875,
+    "std_rank": 19.13277031436754,
+    "top1_pct": 3.7125,
+    "top5_pct": 15.075,
+    "top10_pct": 27.4125,
+    "full_key": 0,
+    "mean_runtime_s_per_key": 0.35532830420002576
+   },
+   "marginal_old_readout": {
+    "keys": 1000,
+    "nan_trials": 0,
+    "valid_trials": 1000,
+    "key_bytes": 16000,
+    "mean_rank": 68.933375,
+    "std_rank": 56.596564039784035,
+    "top1_pct": 0.8,
+    "top5_pct": 4.375,
+    "top10_pct": 8.7,
+    "full_key": 0,
+    "mean_runtime_s_per_key": 0.35532830420002576
+   },
+   "nan_seeds": []
+  },
+  "B_0.3": {
+   "joint": {
+    "keys": 1000,
+    "nan_trials": 0,
+    "valid_trials": 1000,
+    "key_bytes": 16000,
+    "mean_rank": 29.4885,
+    "std_rank": 23.791214087347456,
+    "top1_pct": 3.3687500000000004,
+    "top5_pct": 13.775,
+    "top10_pct": 24.775,
+    "full_key": 0,
+    "mean_runtime_s_per_key": 0.3551778689998609
+   },
+   "marginal_old_readout": {
+    "keys": 1000,
+    "nan_trials": 0,
+    "valid_trials": 1000,
+    "key_bytes": 16000,
+    "mean_rank": 68.5861875,
+    "std_rank": 50.71667572618343,
+    "top1_pct": 0.8875,
+    "top5_pct": 4.08125,
+    "top10_pct": 8.15625,
+    "full_key": 0,
+    "mean_runtime_s_per_key": 0.3551778689998609
+   },
+   "nan_seeds": []
+  },
+  "B_0.5": {
+   "joint": {
+    "keys": 1000,
+    "nan_trials": 0,
+    "valid_trials": 1000,
+    "key_bytes": 16000,
+    "mean_rank": 40.89125,
+    "std_rank": 34.33659379492235,
+    "top1_pct": 2.3875,
+    "top5_pct": 10.9125,
+    "top10_pct": 20.2875,
+    "full_key": 0,
+    "mean_runtime_s_per_key": 0.3559155268001632
+   },
+   "marginal_old_readout": {
+    "keys": 1000,
+    "nan_trials": 0,
+    "valid_trials": 1000,
+    "key_bytes": 16000,
+    "mean_rank": 70.7421875,
+    "std_rank": 48.31516811742296,
+    "top1_pct": 0.7250000000000001,
+    "top5_pct": 4.04375,
+    "top10_pct": 8.0875,
+    "full_key": 0,
+    "mean_runtime_s_per_key": 0.3559155268001632
+   },
+   "nan_seeds": []
+  },
+  "B_0.7": {
+   "joint": {
+    "keys": 1000,
+    "nan_trials": 0,
+    "valid_trials": 1000,
+    "key_bytes": 16000,
+    "mean_rank": 51.7613125,
+    "std_rank": 43.02278281070791,
+    "top1_pct": 2.0812500000000003,
+    "top5_pct": 8.73125,
+    "top10_pct": 16.46875,
+    "full_key": 0,
+    "mean_runtime_s_per_key": 0.353931081200426
+   },
+   "marginal_old_readout": {
+    "keys": 1000,
+    "nan_trials": 0,
+    "valid_trials": 1000,
+    "key_bytes": 16000,
+    "mean_rank": 73.494375,
+    "std_rank": 50.493818615345134,
+    "top1_pct": 0.7875,
+    "top5_pct": 3.9125,
+    "top10_pct": 7.8,
+    "full_key": 0,
+    "mean_runtime_s_per_key": 0.353931081200426
+   },
+   "nan_seeds": []
+  },
+  "B_1.0": {
+   "joint": {
+    "keys": 1000,
+    "nan_trials": 0,
+    "valid_trials": 1000,
+    "key_bytes": 16000,
+    "mean_rank": 66.3414375,
+    "std_rank": 52.66079051755294,
+    "top1_pct": 1.7000000000000002,
+    "top5_pct": 6.987500000000001,
+    "top10_pct": 12.843750000000002,
+    "full_key": 0,
+    "mean_runtime_s_per_key": 0.3566026973000698
+   },
+   "marginal_old_readout": {
+    "keys": 1000,
+    "nan_trials": 0,
+    "valid_trials": 1000,
+    "key_bytes": 16000,
+    "mean_rank": 79.4465,
+    "std_rank": 55.80752872821014,
+    "top1_pct": 0.79375,
+    "top5_pct": 4.01875,
+    "top10_pct": 7.6499999999999995,
+    "full_key": 0,
+    "mean_runtime_s_per_key": 0.3566026973000698
+   },
+   "nan_seeds": []
+  }
+ }
+}
