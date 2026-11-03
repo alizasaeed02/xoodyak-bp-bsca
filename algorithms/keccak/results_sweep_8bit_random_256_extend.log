@@ -1,0 +1,4 @@
+[8bit_random_256_extend] sigma=2.0: 100 runs total, 0 already done, 100 to do
+[8bit_random_256_extend] sigma=2.0 done: trials=100 valid=100 invalid=0 success=0 rate=0.000 elapsed=5663s
+[8bit_random_256_extend] sigma=2.0 had 0 successes -> skipping sigma=2.25 per instructions
+[8bit_random_256_extend] FINISHED

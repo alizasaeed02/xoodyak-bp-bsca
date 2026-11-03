@@ -1,0 +1,14 @@
+[8bit_random_256] 600 runs total, 0 already done, 600 to do, workers=2
+[8bit_random_256] sigma=0.5 done: trials=100 valid=100 invalid=0 success=100 rate=1.000 elapsed=431s
+[8bit_random_256] sigma=0.75 done: trials=100 valid=100 invalid=0 success=100 rate=1.000 elapsed=965s
+[8bit_random_256] sigma=1.0 done: trials=100 valid=100 invalid=0 success=100 rate=1.000 elapsed=2082s
+[8bit_random_256] sigma=1.25 done: trials=100 valid=100 invalid=0 success=100 rate=1.000 elapsed=3989s
+[8bit_random_256] sigma=1.5 done: trials=100 valid=100 invalid=0 success=89 rate=0.890 elapsed=7999s
+[8bit_random_256] 600 runs total, 598 already done, 2 to do, workers=2
+[8bit_random_256] sigma=0.5 done: trials=100 valid=100 invalid=0 success=100 rate=1.000 elapsed=125s
+[8bit_random_256] sigma=0.75 done: trials=100 valid=100 invalid=0 success=100 rate=1.000 elapsed=125s
+[8bit_random_256] sigma=1.0 done: trials=100 valid=100 invalid=0 success=100 rate=1.000 elapsed=125s
+[8bit_random_256] sigma=1.25 done: trials=100 valid=100 invalid=0 success=100 rate=1.000 elapsed=125s
+[8bit_random_256] sigma=1.5 done: trials=100 valid=100 invalid=0 success=89 rate=0.890 elapsed=125s
+[8bit_random_256] sigma=1.75 done: trials=100 valid=100 invalid=0 success=17 rate=0.170 elapsed=128s
+[8bit_random_256] FINISHED in 128s -> results_sweep/summary_8bit_random_256.json

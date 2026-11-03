@@ -1,0 +1,80 @@
+{
+  "word": 8,
+  "scenario": "random_256",
+  "secret_bits": 256,
+  "n_per_sigma": 100,
+  "timeout_s": 900,
+  "success_criterion": "errors_in == 0",
+  "summary": {
+    "0.5": {
+      "trials": 100,
+      "valid": 100,
+      "invalid": 0,
+      "successes": 100,
+      "failures": 0,
+      "rate": 1.0,
+      "cp95_lo": 0.9637833073548235,
+      "cp95_hi": 1.0
+    },
+    "0.75": {
+      "trials": 100,
+      "valid": 100,
+      "invalid": 0,
+      "successes": 100,
+      "failures": 0,
+      "rate": 1.0,
+      "cp95_lo": 0.9637833073548235,
+      "cp95_hi": 1.0
+    },
+    "1.0": {
+      "trials": 100,
+      "valid": 100,
+      "invalid": 0,
+      "successes": 100,
+      "failures": 0,
+      "rate": 1.0,
+      "cp95_lo": 0.9637833073548235,
+      "cp95_hi": 1.0
+    },
+    "1.25": {
+      "trials": 100,
+      "valid": 100,
+      "invalid": 0,
+      "successes": 100,
+      "failures": 0,
+      "rate": 1.0,
+      "cp95_lo": 0.9637833073548235,
+      "cp95_hi": 1.0
+    },
+    "1.5": {
+      "trials": 100,
+      "valid": 100,
+      "invalid": 0,
+      "successes": 89,
+      "failures": 11,
+      "rate": 0.89,
+      "cp95_lo": 0.8116988678035574,
+      "cp95_hi": 0.9437929797145125
+    },
+    "1.75": {
+      "trials": 100,
+      "valid": 100,
+      "invalid": 0,
+      "successes": 17,
+      "failures": 83,
+      "rate": 0.17,
+      "cp95_lo": 0.10226491003552825,
+      "cp95_hi": 0.25817541063215865
+    },
+    "2.0": {
+      "trials": 100,
+      "valid": 100,
+      "invalid": 0,
+      "successes": 0,
+      "failures": 100,
+      "rate": 0.0,
+      "cp95_lo": 0.0,
+      "cp95_hi": 0.03621669264517641
+    }
+  }
+}

@@ -1,0 +1,73 @@
+
+sigma=0.05 (n=100, 10.0s):
+  D0: 100/100 (100.00%) 1-sided-CP-upper-fail=0.0295 mean_err=0.00 total_rt=162.09ms
+  D2_BP: 100/100 (100.00%) 1-sided-CP-upper-fail=0.0295 mean_err=0.00 total_rt=209.55ms
+  D2_exact: 100/100 (100.00%) 1-sided-CP-upper-fail=0.0295 mean_err=0.00 total_rt=103.90ms
+
+sigma=0.1 (n=100, 14.4s):
+  D0: 100/100 (100.00%) 1-sided-CP-upper-fail=0.0295 mean_err=0.00 total_rt=248.80ms
+  D2_BP: 100/100 (100.00%) 1-sided-CP-upper-fail=0.0295 mean_err=0.00 total_rt=314.67ms
+  D2_exact: 100/100 (100.00%) 1-sided-CP-upper-fail=0.0295 mean_err=0.00 total_rt=162.68ms
+
+sigma=0.15 (n=100, 14.7s):
+  D0: 100/100 (100.00%) 1-sided-CP-upper-fail=0.0295 mean_err=0.00 total_rt=254.38ms
+  D2_BP: 100/100 (100.00%) 1-sided-CP-upper-fail=0.0295 mean_err=0.00 total_rt=320.60ms
+  D2_exact: 100/100 (100.00%) 1-sided-CP-upper-fail=0.0295 mean_err=0.00 total_rt=165.70ms
+
+sigma=0.2 (n=100, 15.0s):
+  D0: 100/100 (100.00%) 1-sided-CP-upper-fail=0.0295 mean_err=0.00 total_rt=258.64ms
+  D2_BP: 100/100 (100.00%) 1-sided-CP-upper-fail=0.0295 mean_err=0.00 total_rt=326.65ms
+  D2_exact: 100/100 (100.00%) 1-sided-CP-upper-fail=0.0295 mean_err=0.00 total_rt=171.80ms
+
+sigma=0.25 (n=100, 15.2s):
+  D0: 88/100 (88.00%) mean_err=5.40 total_rt=256.53ms
+  D2_BP: 100/100 (100.00%) 1-sided-CP-upper-fail=0.0295 mean_err=0.00 total_rt=324.42ms
+  D2_exact: 100/100 (100.00%) 1-sided-CP-upper-fail=0.0295 mean_err=0.00 total_rt=171.82ms
+
+sigma=0.3 (n=100, 15.4s):
+  D0: 48/100 (48.00%) mean_err=26.07 total_rt=263.56ms
+  D2_BP: 100/100 (100.00%) 1-sided-CP-upper-fail=0.0295 mean_err=0.00 total_rt=331.28ms
+  D2_exact: 100/100 (100.00%) 1-sided-CP-upper-fail=0.0295 mean_err=0.00 total_rt=171.79ms
+
+sigma=0.35 (n=100, 14.7s):
+  D0: 11/100 (11.00%) mean_err=49.30 total_rt=248.98ms
+  D2_BP: 100/100 (100.00%) 1-sided-CP-upper-fail=0.0295 mean_err=0.00 total_rt=317.69ms
+  D2_exact: 100/100 (100.00%) 1-sided-CP-upper-fail=0.0295 mean_err=0.00 total_rt=166.41ms
+
+sigma=0.4 (n=100, 10.5s):
+  D0: 2/100 (2.00%) mean_err=62.08 total_rt=164.45ms
+  D2_BP: 100/100 (100.00%) 1-sided-CP-upper-fail=0.0295 mean_err=0.00 total_rt=214.59ms
+  D2_exact: 100/100 (100.00%) 1-sided-CP-upper-fail=0.0295 mean_err=0.00 total_rt=103.65ms
+
+sigma=0.45 (n=100, 9.9s):
+  D0: 0/100 (0.00%) mean_err=64.26 total_rt=158.36ms
+  D2_BP: 99/100 (99.00%) mean_err=0.03 total_rt=207.75ms
+  D2_exact: 99/100 (99.00%) mean_err=0.01 total_rt=102.89ms
+
+sigma=0.5 (n=100, 11.6s):
+  D0: 0/100 (0.00%) mean_err=63.09 total_rt=185.56ms
+  D2_BP: 90/100 (90.00%) mean_err=0.53 total_rt=238.97ms
+  D2_exact: 95/100 (95.00%) mean_err=0.18 total_rt=117.52ms
+
+sigma=0.6 (n=100, 10.2s):
+  D0: 0/100 (0.00%) mean_err=63.63 total_rt=154.14ms
+  D2_BP: 38/100 (38.00%) mean_err=4.62 total_rt=205.25ms
+  D2_exact: 53/100 (53.00%) mean_err=3.52 total_rt=102.24ms
+
+sigma=0.7 (n=100, 9.7s):
+  D0: 0/100 (0.00%) mean_err=63.52 total_rt=159.65ms
+  D2_BP: 8/100 (8.00%) mean_err=14.39 total_rt=209.11ms
+  D2_exact: 10/100 (10.00%) mean_err=11.32 total_rt=102.18ms
+
+sigma=0.8 (n=100, 9.7s):
+  D0: 0/100 (0.00%) mean_err=62.70 total_rt=153.85ms
+  D2_BP: 0/100 (0.00%) mean_err=26.43 total_rt=204.10ms
+  D2_exact: 0/100 (0.00%) mean_err=27.70 total_rt=102.65ms
+
+sigma=1.0 (n=100, 9.8s):
+  D0: 0/100 (0.00%) mean_err=64.08 total_rt=156.67ms
+  D2_BP: 0/100 (0.00%) mean_err=41.95 total_rt=207.24ms
+  D2_exact: 0/100 (0.00%) mean_err=41.31 total_rt=102.78ms
+
+Total elapsed: 171s
+saved final_single_trace_grid_results.json

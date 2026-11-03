@@ -1,0 +1,14 @@
+sigma=0.05: known=100/100 unknown(order1)=100/100 (order0=100/100) nonce_ok=100/100 McNemar p=nan  t_unknown=17s t_known=13s
+sigma=0.1: known=100/100 unknown(order1)=100/100 (order0=100/100) nonce_ok=100/100 McNemar p=nan  t_unknown=18s t_known=13s
+sigma=0.15: known=100/100 unknown(order1)=100/100 (order0=100/100) nonce_ok=100/100 McNemar p=nan  t_unknown=17s t_known=12s
+sigma=0.2: known=100/100 unknown(order1)=100/100 (order0=100/100) nonce_ok=100/100 McNemar p=nan  t_unknown=16s t_known=13s
+sigma=0.25: known=100/100 unknown(order1)=100/100 (order0=100/100) nonce_ok=100/100 McNemar p=nan  t_unknown=16s t_known=12s
+sigma=0.3: known=100/100 unknown(order1)=98/100 (order0=95/100) nonce_ok=98/100 McNemar p=0.5000  t_unknown=16s t_known=13s
+sigma=0.35: known=100/100 unknown(order1)=93/100 (order0=79/100) nonce_ok=93/100 McNemar p=0.0156  t_unknown=15s t_known=12s
+sigma=0.4: known=100/100 unknown(order1)=60/100 (order0=44/100) nonce_ok=60/100 McNemar p=0.0000  t_unknown=15s t_known=12s
+sigma=0.45: known=99/100 unknown(order1)=19/100 (order0=6/100) nonce_ok=19/100 McNemar p=0.0000  t_unknown=16s t_known=12s
+sigma=0.5: known=90/100 unknown(order1)=2/100 (order0=0/100) nonce_ok=2/100 McNemar p=0.0000  t_unknown=15s t_known=12s
+sigma=0.6: known=38/100 unknown(order1)=0/100 (order0=0/100) nonce_ok=0/100 McNemar p=0.0000  t_unknown=16s t_known=12s
+
+Total elapsed: 315s
+saved unknown_nonce_step3_single_trace_results.json

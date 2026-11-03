@@ -1,0 +1,807 @@
+{
+  "sigmas": [
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.35,
+    0.4,
+    0.45,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    1.0
+  ],
+  "n_per_sigma": 100,
+  "total_elapsed_s": 171.24373722076416,
+  "D0_inference_engine": "BP (chi_bit_graph loopy BP), fixed rows -- matches the published pipeline",
+  "results": {
+    "0.05": {
+      "n": 100,
+      "elapsed_s": 9.99193024635315,
+      "summary": {
+        "D0": {
+          "successes": 100,
+          "n": 100,
+          "rate": 1.0,
+          "one_sided_95ci_upper_failure_bound": 0.02951304960703993,
+          "two_sided_95ci": [
+            0.9637833073548235,
+            1.0
+          ],
+          "mean_key_bit_errors": 0.0,
+          "mean_total_runtime_s": 0.16208861700230046
+        },
+        "D2_BP": {
+          "successes": 100,
+          "n": 100,
+          "rate": 1.0,
+          "one_sided_95ci_upper_failure_bound": 0.02951304960703993,
+          "two_sided_95ci": [
+            0.9637833073548235,
+            1.0
+          ],
+          "mean_key_bit_errors": 0.0,
+          "mean_total_runtime_s": 0.20955135500196775,
+          "mean_wrong_basis_bits": 0.0,
+          "true_key_present_count": 100,
+          "true_key_selected_count": 100,
+          "mean_t_infer": 0.1602236350021849,
+          "mean_t_basis": 0.002171146999899065,
+          "mean_t_solve": 0.00808658599969931,
+          "mean_t_score": 0.039069987000184485
+        },
+        "D2_exact": {
+          "successes": 100,
+          "n": 100,
+          "rate": 1.0,
+          "one_sided_95ci_upper_failure_bound": 0.02951304960703993,
+          "two_sided_95ci": [
+            0.9637833073548235,
+            1.0
+          ],
+          "mean_key_bit_errors": 0.0,
+          "mean_total_runtime_s": 0.10390114600086235,
+          "mean_wrong_basis_bits": 0.0,
+          "true_key_present_count": 100,
+          "true_key_selected_count": 100,
+          "mean_t_infer": 0.05556695200015383,
+          "mean_t_basis": 0.0021962150005856527,
+          "mean_t_solve": 0.0077318330004345626,
+          "mean_t_score": 0.03840614599968831
+        }
+      }
+    },
+    "0.1": {
+      "n": 100,
+      "elapsed_s": 14.445769309997559,
+      "summary": {
+        "D0": {
+          "successes": 100,
+          "n": 100,
+          "rate": 1.0,
+          "one_sided_95ci_upper_failure_bound": 0.02951304960703993,
+          "two_sided_95ci": [
+            0.9637833073548235,
+            1.0
+          ],
+          "mean_key_bit_errors": 0.0,
+          "mean_total_runtime_s": 0.24879726000006486
+        },
+        "D2_BP": {
+          "successes": 100,
+          "n": 100,
+          "rate": 1.0,
+          "one_sided_95ci_upper_failure_bound": 0.02951304960703993,
+          "two_sided_95ci": [
+            0.9637833073548235,
+            1.0
+          ],
+          "mean_key_bit_errors": 0.0,
+          "mean_total_runtime_s": 0.31466696200048316,
+          "mean_wrong_basis_bits": 0.0,
+          "true_key_present_count": 100,
+          "true_key_selected_count": 100,
+          "mean_t_infer": 0.24871760000060023,
+          "mean_t_basis": 0.0039738119996764,
+          "mean_t_solve": 0.014751071999853593,
+          "mean_t_score": 0.047224478000352975
+        },
+        "D2_exact": {
+          "successes": 100,
+          "n": 100,
+          "rate": 1.0,
+          "one_sided_95ci_upper_failure_bound": 0.02951304960703993,
+          "two_sided_95ci": [
+            0.9637833073548235,
+            1.0
+          ],
+          "mean_key_bit_errors": 0.0,
+          "mean_total_runtime_s": 0.16268057400411634,
+          "mean_wrong_basis_bits": 0.0,
+          "true_key_present_count": 100,
+          "true_key_selected_count": 100,
+          "mean_t_infer": 0.09988710900383012,
+          "mean_t_basis": 0.00392462300042098,
+          "mean_t_solve": 0.01446207399967534,
+          "mean_t_score": 0.04440676800018992
+        }
+      }
+    },
+    "0.15": {
+      "n": 100,
+      "elapsed_s": 14.74351191520691,
+      "summary": {
+        "D0": {
+          "successes": 100,
+          "n": 100,
+          "rate": 1.0,
+          "one_sided_95ci_upper_failure_bound": 0.02951304960703993,
+          "two_sided_95ci": [
+            0.9637833073548235,
+            1.0
+          ],
+          "mean_key_bit_errors": 0.0,
+          "mean_total_runtime_s": 0.25437920399577707
+        },
+        "D2_BP": {
+          "successes": 100,
+          "n": 100,
+          "rate": 1.0,
+          "one_sided_95ci_upper_failure_bound": 0.02951304960703993,
+          "two_sided_95ci": [
+            0.9637833073548235,
+            1.0
+          ],
+          "mean_key_bit_errors": 0.0,
+          "mean_total_runtime_s": 0.32059754999601864,
+          "mean_wrong_basis_bits": 0.0,
+          "true_key_present_count": 100,
+          "true_key_selected_count": 100,
+          "mean_t_infer": 0.25430452799562775,
+          "mean_t_basis": 0.004251162000145996,
+          "mean_t_solve": 0.016390397000068332,
+          "mean_t_score": 0.04565146300017659
+        },
+        "D2_exact": {
+          "successes": 100,
+          "n": 100,
+          "rate": 1.0,
+          "one_sided_95ci_upper_failure_bound": 0.02951304960703993,
+          "two_sided_95ci": [
+            0.9637833073548235,
+            1.0
+          ],
+          "mean_key_bit_errors": 0.0,
+          "mean_total_runtime_s": 0.1657044430005044,
+          "mean_wrong_basis_bits": 0.0,
+          "true_key_present_count": 100,
+          "true_key_selected_count": 100,
+          "mean_t_infer": 0.09797311700051069,
+          "mean_t_basis": 0.005423396000187495,
+          "mean_t_solve": 0.016133036999963223,
+          "mean_t_score": 0.046174892999842995
+        }
+      }
+    },
+    "0.2": {
+      "n": 100,
+      "elapsed_s": 15.042812585830688,
+      "summary": {
+        "D0": {
+          "successes": 100,
+          "n": 100,
+          "rate": 1.0,
+          "one_sided_95ci_upper_failure_bound": 0.02951304960703993,
+          "two_sided_95ci": [
+            0.9637833073548235,
+            1.0
+          ],
+          "mean_key_bit_errors": 0.0,
+          "mean_total_runtime_s": 0.25864206100763115
+        },
+        "D2_BP": {
+          "successes": 100,
+          "n": 100,
+          "rate": 1.0,
+          "one_sided_95ci_upper_failure_bound": 0.02951304960703993,
+          "two_sided_95ci": [
+            0.9637833073548235,
+            1.0
+          ],
+          "mean_key_bit_errors": 0.0,
+          "mean_total_runtime_s": 0.32665412200840366,
+          "mean_wrong_basis_bits": 0.0,
+          "true_key_present_count": 100,
+          "true_key_selected_count": 100,
+          "mean_t_infer": 0.25855247900755784,
+          "mean_t_basis": 0.00858687700041628,
+          "mean_t_solve": 0.013691617000076803,
+          "mean_t_score": 0.04582314900035271
+        },
+        "D2_exact": {
+          "successes": 100,
+          "n": 100,
+          "rate": 1.0,
+          "one_sided_95ci_upper_failure_bound": 0.02951304960703993,
+          "two_sided_95ci": [
+            0.9637833073548235,
+            1.0
+          ],
+          "mean_key_bit_errors": 0.0,
+          "mean_total_runtime_s": 0.17179721799468098,
+          "mean_wrong_basis_bits": 0.0,
+          "true_key_present_count": 100,
+          "true_key_selected_count": 100,
+          "mean_t_infer": 0.10391101999455714,
+          "mean_t_basis": 0.008456390000064857,
+          "mean_t_solve": 0.01345768200008024,
+          "mean_t_score": 0.04597212599997874
+        }
+      }
+    },
+    "0.25": {
+      "n": 100,
+      "elapsed_s": 15.16000747680664,
+      "summary": {
+        "D0": {
+          "successes": 88,
+          "n": 100,
+          "rate": 0.88,
+          "one_sided_95ci_upper_failure_bound": null,
+          "two_sided_95ci": [
+            0.7997643163800312,
+            0.9364310974388407
+          ],
+          "mean_key_bit_errors": 5.4,
+          "mean_total_runtime_s": 0.25653120099952503
+        },
+        "D2_BP": {
+          "successes": 100,
+          "n": 100,
+          "rate": 1.0,
+          "one_sided_95ci_upper_failure_bound": 0.02951304960703993,
+          "two_sided_95ci": [
+            0.9637833073548235,
+            1.0
+          ],
+          "mean_key_bit_errors": 0.0,
+          "mean_total_runtime_s": 0.32442137299913154,
+          "mean_wrong_basis_bits": 0.0,
+          "true_key_present_count": 100,
+          "true_key_selected_count": 100,
+          "mean_t_infer": 0.2564458309995825,
+          "mean_t_basis": 0.008215917000197805,
+          "mean_t_solve": 0.013407714999775635,
+          "mean_t_score": 0.046351909999575586
+        },
+        "D2_exact": {
+          "successes": 100,
+          "n": 100,
+          "rate": 1.0,
+          "one_sided_95ci_upper_failure_bound": 0.02951304960703993,
+          "two_sided_95ci": [
+            0.9637833073548235,
+            1.0
+          ],
+          "mean_key_bit_errors": 0.0,
+          "mean_total_runtime_s": 0.1718153810017975,
+          "mean_wrong_basis_bits": 0.0,
+          "true_key_present_count": 100,
+          "true_key_selected_count": 100,
+          "mean_t_infer": 0.10325150900192966,
+          "mean_t_basis": 0.008173158000208786,
+          "mean_t_solve": 0.013780887999892001,
+          "mean_t_score": 0.046609825999767054
+        }
+      }
+    },
+    "0.3": {
+      "n": 100,
+      "elapsed_s": 15.406977891921997,
+      "summary": {
+        "D0": {
+          "successes": 48,
+          "n": 100,
+          "rate": 0.48,
+          "one_sided_95ci_upper_failure_bound": null,
+          "two_sided_95ci": [
+            0.3790054801779585,
+            0.5822102345936931
+          ],
+          "mean_key_bit_errors": 26.07,
+          "mean_total_runtime_s": 0.26356385099759794
+        },
+        "D2_BP": {
+          "successes": 100,
+          "n": 100,
+          "rate": 1.0,
+          "one_sided_95ci_upper_failure_bound": 0.02951304960703993,
+          "two_sided_95ci": [
+            0.9637833073548235,
+            1.0
+          ],
+          "mean_key_bit_errors": 0.0,
+          "mean_total_runtime_s": 0.3312849909975921,
+          "mean_wrong_basis_bits": 0.0,
+          "true_key_present_count": 100,
+          "true_key_selected_count": 100,
+          "mean_t_infer": 0.26348120499780636,
+          "mean_t_basis": 0.0083854449998762,
+          "mean_t_solve": 0.013246282000036445,
+          "mean_t_score": 0.04617205899987312
+        },
+        "D2_exact": {
+          "successes": 100,
+          "n": 100,
+          "rate": 1.0,
+          "one_sided_95ci_upper_failure_bound": 0.02951304960703993,
+          "two_sided_95ci": [
+            0.9637833073548235,
+            1.0
+          ],
+          "mean_key_bit_errors": 0.0,
+          "mean_total_runtime_s": 0.17179329499740562,
+          "mean_wrong_basis_bits": 0.0,
+          "true_key_present_count": 100,
+          "true_key_selected_count": 100,
+          "mean_t_infer": 0.10473572599752515,
+          "mean_t_basis": 0.00793917999966652,
+          "mean_t_solve": 0.013031292000305257,
+          "mean_t_score": 0.04608709699990868
+        }
+      }
+    },
+    "0.35": {
+      "n": 100,
+      "elapsed_s": 14.716573715209961,
+      "summary": {
+        "D0": {
+          "successes": 11,
+          "n": 100,
+          "rate": 0.11,
+          "one_sided_95ci_upper_failure_bound": null,
+          "two_sided_95ci": [
+            0.05620702028548746,
+            0.18830113219644257
+          ],
+          "mean_key_bit_errors": 49.3,
+          "mean_total_runtime_s": 0.24898320099760896
+        },
+        "D2_BP": {
+          "successes": 100,
+          "n": 100,
+          "rate": 1.0,
+          "one_sided_95ci_upper_failure_bound": 0.02951304960703993,
+          "two_sided_95ci": [
+            0.9637833073548235,
+            1.0
+          ],
+          "mean_key_bit_errors": 0.0,
+          "mean_total_runtime_s": 0.3176855979970423,
+          "mean_wrong_basis_bits": 0.0,
+          "true_key_present_count": 100,
+          "true_key_selected_count": 100,
+          "mean_t_infer": 0.24889497299780486,
+          "mean_t_basis": 0.007996199999688543,
+          "mean_t_solve": 0.01312034499955189,
+          "mean_t_score": 0.047674079999997045
+        },
+        "D2_exact": {
+          "successes": 100,
+          "n": 100,
+          "rate": 1.0,
+          "one_sided_95ci_upper_failure_bound": 0.02951304960703993,
+          "two_sided_95ci": [
+            0.9637833073548235,
+            1.0
+          ],
+          "mean_key_bit_errors": 0.0,
+          "mean_total_runtime_s": 0.1664124460049061,
+          "mean_wrong_basis_bits": 0.0,
+          "true_key_present_count": 100,
+          "true_key_selected_count": 100,
+          "mean_t_infer": 0.09999663500515453,
+          "mean_t_basis": 0.007722899999644142,
+          "mean_t_solve": 0.012728093000041553,
+          "mean_t_score": 0.04596481800006586
+        }
+      }
+    },
+    "0.4": {
+      "n": 100,
+      "elapsed_s": 10.5369234085083,
+      "summary": {
+        "D0": {
+          "successes": 2,
+          "n": 100,
+          "rate": 0.02,
+          "one_sided_95ci_upper_failure_bound": null,
+          "two_sided_95ci": [
+            0.0024313368239425423,
+            0.07038393247107012
+          ],
+          "mean_key_bit_errors": 62.08,
+          "mean_total_runtime_s": 0.16444641100169974
+        },
+        "D2_BP": {
+          "successes": 100,
+          "n": 100,
+          "rate": 1.0,
+          "one_sided_95ci_upper_failure_bound": 0.02951304960703993,
+          "two_sided_95ci": [
+            0.9637833073548235,
+            1.0
+          ],
+          "mean_key_bit_errors": 0.0,
+          "mean_total_runtime_s": 0.2145882560017344,
+          "mean_wrong_basis_bits": 0.02,
+          "true_key_present_count": 100,
+          "true_key_selected_count": 100,
+          "mean_t_infer": 0.16437808500202664,
+          "mean_t_basis": 0.004495397999853594,
+          "mean_t_solve": 0.007458125000048312,
+          "mean_t_score": 0.03825664799980586
+        },
+        "D2_exact": {
+          "successes": 100,
+          "n": 100,
+          "rate": 1.0,
+          "one_sided_95ci_upper_failure_bound": 0.02951304960703993,
+          "two_sided_95ci": [
+            0.9637833073548235,
+            1.0
+          ],
+          "mean_key_bit_errors": 0.0,
+          "mean_total_runtime_s": 0.1036496450024424,
+          "mean_wrong_basis_bits": 0.03,
+          "true_key_present_count": 100,
+          "true_key_selected_count": 100,
+          "mean_t_infer": 0.054876009002182397,
+          "mean_t_basis": 0.003961460000136867,
+          "mean_t_solve": 0.0063847839999652935,
+          "mean_t_score": 0.03842739200015785
+        }
+      }
+    },
+    "0.45": {
+      "n": 100,
+      "elapsed_s": 9.888059139251709,
+      "summary": {
+        "D0": {
+          "successes": 0,
+          "n": 100,
+          "rate": 0.0,
+          "one_sided_95ci_upper_failure_bound": null,
+          "two_sided_95ci": [
+            0.0,
+            0.03621669264517641
+          ],
+          "mean_key_bit_errors": 64.26,
+          "mean_total_runtime_s": 0.15836001599564042
+        },
+        "D2_BP": {
+          "successes": 99,
+          "n": 100,
+          "rate": 0.99,
+          "one_sided_95ci_upper_failure_bound": null,
+          "two_sided_95ci": [
+            0.9455406146079194,
+            0.9997468539670226
+          ],
+          "mean_key_bit_errors": 0.03,
+          "mean_total_runtime_s": 0.2077515309968294,
+          "mean_wrong_basis_bits": 0.11,
+          "true_key_present_count": 99,
+          "true_key_selected_count": 99,
+          "mean_t_infer": 0.1582985329960502,
+          "mean_t_basis": 0.004517225000236067,
+          "mean_t_solve": 0.007084123000458931,
+          "mean_t_score": 0.03785165000008419
+        },
+        "D2_exact": {
+          "successes": 99,
+          "n": 100,
+          "rate": 0.99,
+          "one_sided_95ci_upper_failure_bound": null,
+          "two_sided_95ci": [
+            0.9455406146079194,
+            0.9997468539670226
+          ],
+          "mean_key_bit_errors": 0.01,
+          "mean_total_runtime_s": 0.1028911489971506,
+          "mean_wrong_basis_bits": 0.09,
+          "true_key_present_count": 99,
+          "true_key_selected_count": 99,
+          "mean_t_infer": 0.05450392199709313,
+          "mean_t_basis": 0.004052600999930291,
+          "mean_t_solve": 0.006350419000009424,
+          "mean_t_score": 0.03798420700011775
+        }
+      }
+    },
+    "0.5": {
+      "n": 100,
+      "elapsed_s": 11.625561237335205,
+      "summary": {
+        "D0": {
+          "successes": 0,
+          "n": 100,
+          "rate": 0.0,
+          "one_sided_95ci_upper_failure_bound": null,
+          "two_sided_95ci": [
+            0.0,
+            0.03621669264517641
+          ],
+          "mean_key_bit_errors": 63.09,
+          "mean_total_runtime_s": 0.18556010100539425
+        },
+        "D2_BP": {
+          "successes": 90,
+          "n": 100,
+          "rate": 0.9,
+          "one_sided_95ci_upper_failure_bound": null,
+          "two_sided_95ci": [
+            0.8237774022599773,
+            0.9509953107785141
+          ],
+          "mean_key_bit_errors": 0.53,
+          "mean_total_runtime_s": 0.23896769500475784,
+          "mean_wrong_basis_bits": 0.49,
+          "true_key_present_count": 90,
+          "true_key_selected_count": 90,
+          "mean_t_infer": 0.1854876220051665,
+          "mean_t_basis": 0.004976336000108859,
+          "mean_t_solve": 0.00818660499964608,
+          "mean_t_score": 0.04031713199983642
+        },
+        "D2_exact": {
+          "successes": 95,
+          "n": 100,
+          "rate": 0.95,
+          "one_sided_95ci_upper_failure_bound": null,
+          "two_sided_95ci": [
+            0.8871650888945373,
+            0.9835681208179479
+          ],
+          "mean_key_bit_errors": 0.18,
+          "mean_total_runtime_s": 0.11751808400375012,
+          "mean_wrong_basis_bits": 0.32,
+          "true_key_present_count": 95,
+          "true_key_selected_count": 95,
+          "mean_t_infer": 0.06514386100359842,
+          "mean_t_basis": 0.004662483999854885,
+          "mean_t_solve": 0.007165240000176709,
+          "mean_t_score": 0.04054649900012009
+        }
+      }
+    },
+    "0.6": {
+      "n": 100,
+      "elapsed_s": 10.211994886398315,
+      "summary": {
+        "D0": {
+          "successes": 0,
+          "n": 100,
+          "rate": 0.0,
+          "one_sided_95ci_upper_failure_bound": null,
+          "two_sided_95ci": [
+            0.0,
+            0.03621669264517641
+          ],
+          "mean_key_bit_errors": 63.63,
+          "mean_total_runtime_s": 0.1541353880004317
+        },
+        "D2_BP": {
+          "successes": 38,
+          "n": 100,
+          "rate": 0.38,
+          "one_sided_95ci_upper_failure_bound": null,
+          "two_sided_95ci": [
+            0.28476747614147957,
+            0.4825393057508065
+          ],
+          "mean_key_bit_errors": 4.62,
+          "mean_total_runtime_s": 0.2052526549997856,
+          "mean_wrong_basis_bits": 2.24,
+          "true_key_present_count": 38,
+          "true_key_selected_count": 38,
+          "mean_t_infer": 0.15406927800053383,
+          "mean_t_basis": 0.004725196000072174,
+          "mean_t_solve": 0.007501329999649897,
+          "mean_t_score": 0.0389568509995297
+        },
+        "D2_exact": {
+          "successes": 53,
+          "n": 100,
+          "rate": 0.53,
+          "one_sided_95ci_upper_failure_bound": null,
+          "two_sided_95ci": [
+            0.4275814848900453,
+            0.6305948358056055
+          ],
+          "mean_key_bit_errors": 3.52,
+          "mean_total_runtime_s": 0.10224172200280009,
+          "mean_wrong_basis_bits": 1.8,
+          "true_key_present_count": 53,
+          "true_key_selected_count": 53,
+          "mean_t_infer": 0.05293852900227648,
+          "mean_t_basis": 0.004418422000235296,
+          "mean_t_solve": 0.0067500120003387565,
+          "mean_t_score": 0.03813475899994955
+        }
+      }
+    },
+    "0.7": {
+      "n": 100,
+      "elapsed_s": 9.735607385635376,
+      "summary": {
+        "D0": {
+          "successes": 0,
+          "n": 100,
+          "rate": 0.0,
+          "one_sided_95ci_upper_failure_bound": null,
+          "two_sided_95ci": [
+            0.0,
+            0.03621669264517641
+          ],
+          "mean_key_bit_errors": 63.52,
+          "mean_total_runtime_s": 0.15965271899840444
+        },
+        "D2_BP": {
+          "successes": 8,
+          "n": 100,
+          "rate": 0.08,
+          "one_sided_95ci_upper_failure_bound": null,
+          "two_sided_95ci": [
+            0.0351715625181628,
+            0.15155763586442098
+          ],
+          "mean_key_bit_errors": 14.39,
+          "mean_total_runtime_s": 0.20910948999779067,
+          "mean_wrong_basis_bits": 5.05,
+          "true_key_present_count": 9,
+          "true_key_selected_count": 8,
+          "mean_t_infer": 0.15958791799806932,
+          "mean_t_basis": 0.00418249799979094,
+          "mean_t_solve": 0.006919045999893569,
+          "mean_t_score": 0.038420028000036834
+        },
+        "D2_exact": {
+          "successes": 10,
+          "n": 100,
+          "rate": 0.1,
+          "one_sided_95ci_upper_failure_bound": null,
+          "two_sided_95ci": [
+            0.049004689221485945,
+            0.1762225977400227
+          ],
+          "mean_key_bit_errors": 11.32,
+          "mean_total_runtime_s": 0.10217522899351024,
+          "mean_wrong_basis_bits": 4.2,
+          "true_key_present_count": 11,
+          "true_key_selected_count": 10,
+          "mean_t_infer": 0.05386114599328721,
+          "mean_t_basis": 0.004018456000194419,
+          "mean_t_solve": 0.006363415000087116,
+          "mean_t_score": 0.0379322119999415
+        }
+      }
+    },
+    "0.8": {
+      "n": 100,
+      "elapsed_s": 9.679936408996582,
+      "summary": {
+        "D0": {
+          "successes": 0,
+          "n": 100,
+          "rate": 0.0,
+          "one_sided_95ci_upper_failure_bound": null,
+          "two_sided_95ci": [
+            0.0,
+            0.03621669264517641
+          ],
+          "mean_key_bit_errors": 62.7,
+          "mean_total_runtime_s": 0.15384571999944455
+        },
+        "D2_BP": {
+          "successes": 0,
+          "n": 100,
+          "rate": 0.0,
+          "one_sided_95ci_upper_failure_bound": null,
+          "two_sided_95ci": [
+            0.0,
+            0.03621669264517641
+          ],
+          "mean_key_bit_errors": 26.43,
+          "mean_total_runtime_s": 0.20409651099915208,
+          "mean_wrong_basis_bits": 9.16,
+          "true_key_present_count": 0,
+          "true_key_selected_count": 0,
+          "mean_t_infer": 0.15377992299952895,
+          "mean_t_basis": 0.004622923999631894,
+          "mean_t_solve": 0.007242911999928765,
+          "mean_t_score": 0.038450752000062496
+        },
+        "D2_exact": {
+          "successes": 0,
+          "n": 100,
+          "rate": 0.0,
+          "one_sided_95ci_upper_failure_bound": null,
+          "two_sided_95ci": [
+            0.0,
+            0.03621669264517641
+          ],
+          "mean_key_bit_errors": 27.7,
+          "mean_total_runtime_s": 0.10264663299938548,
+          "mean_wrong_basis_bits": 8.78,
+          "true_key_present_count": 0,
+          "true_key_selected_count": 0,
+          "mean_t_infer": 0.05358569000003627,
+          "mean_t_basis": 0.004272707999916747,
+          "mean_t_solve": 0.006679856999689946,
+          "mean_t_score": 0.03810837799974252
+        }
+      }
+    },
+    "1.0": {
+      "n": 100,
+      "elapsed_s": 9.80858850479126,
+      "summary": {
+        "D0": {
+          "successes": 0,
+          "n": 100,
+          "rate": 0.0,
+          "one_sided_95ci_upper_failure_bound": null,
+          "two_sided_95ci": [
+            0.0,
+            0.03621669264517641
+          ],
+          "mean_key_bit_errors": 64.08,
+          "mean_total_runtime_s": 0.15667367100322735
+        },
+        "D2_BP": {
+          "successes": 0,
+          "n": 100,
+          "rate": 0.0,
+          "one_sided_95ci_upper_failure_bound": null,
+          "two_sided_95ci": [
+            0.0,
+            0.03621669264517641
+          ],
+          "mean_key_bit_errors": 41.95,
+          "mean_total_runtime_s": 0.20723567300250578,
+          "mean_wrong_basis_bits": 16.08,
+          "true_key_present_count": 0,
+          "true_key_selected_count": 0,
+          "mean_t_infer": 0.15660358000270208,
+          "mean_t_basis": 0.004704280000150902,
+          "mean_t_solve": 0.007548953000004985,
+          "mean_t_score": 0.03837885999964783
+        },
+        "D2_exact": {
+          "successes": 0,
+          "n": 100,
+          "rate": 0.0,
+          "one_sided_95ci_upper_failure_bound": null,
+          "two_sided_95ci": [
+            0.0,
+            0.03621669264517641
+          ],
+          "mean_key_bit_errors": 41.31,
+          "mean_total_runtime_s": 0.10277622399793472,
+          "mean_wrong_basis_bits": 15.65,
+          "true_key_present_count": 0,
+          "true_key_selected_count": 0,
+          "mean_t_infer": 0.053628015998110644,
+          "mean_t_basis": 0.004281889999838313,
+          "mean_t_solve": 0.006591491000071983,
+          "mean_t_score": 0.03827482699991378
+        }
+      }
+    }
+  }
+}

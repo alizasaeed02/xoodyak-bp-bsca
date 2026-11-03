@@ -1,0 +1,13 @@
+{
+  "noiseless_roundtrip": {
+    "ok": 20,
+    "n": 20,
+    "pass": true
+  },
+  "shuffled_columns_control": {
+    "sigma": 0.4,
+    "n": 30,
+    "order0_key_success": 0,
+    "order1_key_success": 0
+  }
+}

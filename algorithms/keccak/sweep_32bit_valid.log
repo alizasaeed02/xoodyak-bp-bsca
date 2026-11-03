@@ -1,0 +1,7 @@
+[32bit_random] sigma=0.5 attempted=38 valid=31 crashed_or_timeout=7 successes=31 rate_among_valid=1.000 cp95=[0.888,1.000] sigma_elapsed=237s total_elapsed=237s
+[32bit_random] sigma=1.0 attempted=40 valid=31 crashed_or_timeout=9 successes=31 rate_among_valid=1.000 cp95=[0.888,1.000] sigma_elapsed=411s total_elapsed=648s
+[32bit_random] sigma=1.5 attempted=46 valid=30 crashed_or_timeout=16 successes=15 rate_among_valid=0.500 cp95=[0.313,0.687] sigma_elapsed=1647s total_elapsed=2295s
+[32bit_random] sigma=2.0 attempted=32 valid=31 crashed_or_timeout=1 successes=0 rate_among_valid=0.000 cp95=[0.000,0.112] sigma_elapsed=1049s total_elapsed=3344s
+[32bit_random] sigma=2.5 attempted=30 valid=30 crashed_or_timeout=0 successes=0 rate_among_valid=0.000 cp95=[0.000,0.116] sigma_elapsed=487s total_elapsed=3831s
+[32bit_random] sigma=3.0 attempted=30 valid=30 crashed_or_timeout=0 successes=0 rate_among_valid=0.000 cp95=[0.000,0.116] sigma_elapsed=329s total_elapsed=4160s
+FINISHED

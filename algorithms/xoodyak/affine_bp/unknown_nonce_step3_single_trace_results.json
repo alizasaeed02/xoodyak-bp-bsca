@@ -1,0 +1,8028 @@
+{
+  "sigmas": [
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.35,
+    0.4,
+    0.45,
+    0.5,
+    0.6
+  ],
+  "n_per_sigma": 100,
+  "total_elapsed_s": 314.7583222389221,
+  "note": "unknown_nonce_order1 is the headline 'unknown nonce' result (order-1 OSD reprocessing over the 256-bit u=(key,nonce)); order0 is pre-reprocessing, included as a diagnostic. known_nonce_D2_BP is a FRESH identical-seed rerun of the known-nonce pipeline (not reading final_single_trace_grid_results.json), done specifically to recover per-trial pairing for McNemar.",
+  "results": {
+    "0.05": {
+      "n": 100,
+      "known_nonce_D2_BP_successes": 100,
+      "known_nonce_cp95_two_sided": [
+        0.9637833073548235,
+        1.0
+      ],
+      "unknown_nonce_order1_successes": 100,
+      "unknown_nonce_cp95_two_sided": [
+        0.9637833073548235,
+        1.0
+      ],
+      "unknown_nonce_order0_successes": 100,
+      "nonce_recovered_correctly_order1": 100,
+      "discordant": {
+        "only_unknown": 0,
+        "only_known": 0,
+        "both": 100,
+        "neither": 0
+      },
+      "mcnemar_exact_two_sided_p": NaN,
+      "runtime_s": {
+        "unknown_nonce": 17.350823163986206,
+        "known_nonce_D2_BP": 13.302964925765991
+      },
+      "per_trial": [
+        {
+          "seed": 8000,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8001,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8002,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8003,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8004,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8005,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8006,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8007,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8008,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8009,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8010,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8011,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8012,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8013,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8014,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8015,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8016,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8017,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8018,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8019,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8020,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8021,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8022,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8023,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8024,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8025,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8026,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8027,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8028,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8029,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8030,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8031,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8032,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8033,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8034,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8035,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8036,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8037,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8038,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8039,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8040,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8041,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8042,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8043,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8044,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8045,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8046,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8047,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8048,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8049,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8050,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8051,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8052,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8053,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8054,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8055,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8056,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8057,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8058,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8059,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8060,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8061,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8062,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8063,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8064,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8065,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8066,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8067,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8068,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8069,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8070,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8071,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8072,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8073,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8074,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8075,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8076,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8077,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8078,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8079,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8080,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8081,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8082,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8083,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8084,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8085,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8086,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8087,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8088,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8089,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8090,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8091,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8092,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8093,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8094,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8095,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8096,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8097,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8098,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 8099,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        }
+      ]
+    },
+    "0.1": {
+      "n": 100,
+      "known_nonce_D2_BP_successes": 100,
+      "known_nonce_cp95_two_sided": [
+        0.9637833073548235,
+        1.0
+      ],
+      "unknown_nonce_order1_successes": 100,
+      "unknown_nonce_cp95_two_sided": [
+        0.9637833073548235,
+        1.0
+      ],
+      "unknown_nonce_order0_successes": 100,
+      "nonce_recovered_correctly_order1": 100,
+      "discordant": {
+        "only_unknown": 0,
+        "only_known": 0,
+        "both": 100,
+        "neither": 0
+      },
+      "mcnemar_exact_two_sided_p": NaN,
+      "runtime_s": {
+        "unknown_nonce": 18.48781704902649,
+        "known_nonce_D2_BP": 12.650948286056519
+      },
+      "per_trial": [
+        {
+          "seed": 13000,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13001,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13002,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13003,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13004,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13005,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13006,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13007,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13008,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13009,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13010,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13011,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13012,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13013,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13014,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13015,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13016,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13017,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13018,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13019,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13020,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13021,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13022,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13023,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13024,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13025,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13026,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13027,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13028,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13029,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13030,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13031,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13032,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13033,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13034,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13035,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13036,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13037,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13038,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13039,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13040,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13041,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13042,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13043,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13044,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13045,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13046,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13047,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13048,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13049,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13050,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13051,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13052,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13053,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13054,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13055,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13056,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13057,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13058,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13059,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13060,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13061,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13062,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13063,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13064,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13065,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13066,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13067,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13068,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13069,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13070,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13071,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13072,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13073,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13074,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13075,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13076,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13077,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13078,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13079,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13080,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13081,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13082,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13083,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13084,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13085,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13086,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13087,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13088,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13089,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13090,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13091,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13092,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13093,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13094,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13095,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13096,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13097,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13098,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 13099,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        }
+      ]
+    },
+    "0.15": {
+      "n": 100,
+      "known_nonce_D2_BP_successes": 100,
+      "known_nonce_cp95_two_sided": [
+        0.9637833073548235,
+        1.0
+      ],
+      "unknown_nonce_order1_successes": 100,
+      "unknown_nonce_cp95_two_sided": [
+        0.9637833073548235,
+        1.0
+      ],
+      "unknown_nonce_order0_successes": 100,
+      "nonce_recovered_correctly_order1": 100,
+      "discordant": {
+        "only_unknown": 0,
+        "only_known": 0,
+        "both": 100,
+        "neither": 0
+      },
+      "mcnemar_exact_two_sided_p": NaN,
+      "runtime_s": {
+        "unknown_nonce": 17.220341682434082,
+        "known_nonce_D2_BP": 12.165995121002197
+      },
+      "per_trial": [
+        {
+          "seed": 18000,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18001,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18002,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18003,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18004,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18005,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18006,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18007,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18008,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18009,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18010,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18011,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18012,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18013,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18014,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18015,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18016,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18017,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18018,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18019,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18020,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18021,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18022,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18023,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18024,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18025,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18026,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18027,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18028,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18029,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18030,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18031,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18032,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18033,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18034,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18035,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18036,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18037,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18038,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18039,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18040,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18041,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18042,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18043,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18044,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18045,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18046,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18047,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18048,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18049,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18050,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18051,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18052,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18053,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18054,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18055,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18056,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18057,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18058,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18059,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18060,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18061,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18062,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18063,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18064,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18065,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18066,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18067,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18068,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18069,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18070,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18071,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18072,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18073,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18074,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18075,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18076,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18077,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18078,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18079,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18080,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18081,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18082,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18083,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18084,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18085,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18086,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18087,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18088,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18089,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18090,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18091,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18092,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18093,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18094,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18095,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18096,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18097,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18098,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 18099,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        }
+      ]
+    },
+    "0.2": {
+      "n": 100,
+      "known_nonce_D2_BP_successes": 100,
+      "known_nonce_cp95_two_sided": [
+        0.9637833073548235,
+        1.0
+      ],
+      "unknown_nonce_order1_successes": 100,
+      "unknown_nonce_cp95_two_sided": [
+        0.9637833073548235,
+        1.0
+      ],
+      "unknown_nonce_order0_successes": 100,
+      "nonce_recovered_correctly_order1": 100,
+      "discordant": {
+        "only_unknown": 0,
+        "only_known": 0,
+        "both": 100,
+        "neither": 0
+      },
+      "mcnemar_exact_two_sided_p": NaN,
+      "runtime_s": {
+        "unknown_nonce": 16.12707829475403,
+        "known_nonce_D2_BP": 12.81564974784851
+      },
+      "per_trial": [
+        {
+          "seed": 23000,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23001,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23002,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23003,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23004,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23005,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23006,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23007,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23008,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23009,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23010,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23011,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23012,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23013,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23014,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23015,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23016,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23017,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23018,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23019,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23020,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23021,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23022,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23023,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23024,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23025,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23026,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23027,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23028,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23029,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23030,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23031,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23032,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23033,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23034,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23035,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23036,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23037,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23038,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23039,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23040,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23041,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23042,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23043,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23044,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23045,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23046,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23047,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23048,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23049,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23050,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23051,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23052,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23053,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23054,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23055,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23056,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23057,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23058,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23059,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23060,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23061,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23062,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23063,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23064,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23065,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23066,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23067,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23068,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23069,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23070,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23071,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23072,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23073,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23074,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23075,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23076,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23077,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23078,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23079,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23080,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23081,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23082,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23083,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23084,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23085,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23086,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23087,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23088,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23089,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23090,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23091,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23092,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23093,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23094,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23095,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23096,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23097,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23098,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 23099,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        }
+      ]
+    },
+    "0.25": {
+      "n": 100,
+      "known_nonce_D2_BP_successes": 100,
+      "known_nonce_cp95_two_sided": [
+        0.9637833073548235,
+        1.0
+      ],
+      "unknown_nonce_order1_successes": 100,
+      "unknown_nonce_cp95_two_sided": [
+        0.9637833073548235,
+        1.0
+      ],
+      "unknown_nonce_order0_successes": 100,
+      "nonce_recovered_correctly_order1": 100,
+      "discordant": {
+        "only_unknown": 0,
+        "only_known": 0,
+        "both": 100,
+        "neither": 0
+      },
+      "mcnemar_exact_two_sided_p": NaN,
+      "runtime_s": {
+        "unknown_nonce": 15.904097080230713,
+        "known_nonce_D2_BP": 12.075961351394653
+      },
+      "per_trial": [
+        {
+          "seed": 28000,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28001,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28002,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28003,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28004,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28005,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28006,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28007,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28008,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28009,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28010,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28011,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28012,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28013,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28014,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28015,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28016,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28017,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28018,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28019,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28020,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28021,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28022,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28023,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28024,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28025,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28026,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28027,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28028,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28029,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28030,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28031,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28032,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28033,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28034,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28035,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28036,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28037,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28038,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28039,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28040,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28041,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28042,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28043,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28044,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28045,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28046,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28047,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28048,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28049,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28050,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28051,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28052,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28053,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28054,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28055,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28056,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28057,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28058,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28059,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28060,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28061,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28062,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28063,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28064,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28065,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28066,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28067,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28068,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28069,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28070,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28071,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28072,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28073,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28074,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28075,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28076,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28077,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28078,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28079,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28080,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28081,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28082,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28083,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28084,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28085,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28086,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28087,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28088,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28089,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28090,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28091,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28092,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28093,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28094,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28095,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28096,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28097,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28098,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 28099,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        }
+      ]
+    },
+    "0.3": {
+      "n": 100,
+      "known_nonce_D2_BP_successes": 100,
+      "known_nonce_cp95_two_sided": [
+        0.9637833073548235,
+        1.0
+      ],
+      "unknown_nonce_order1_successes": 98,
+      "unknown_nonce_cp95_two_sided": [
+        0.9296160675289299,
+        0.9975686631760574
+      ],
+      "unknown_nonce_order0_successes": 95,
+      "nonce_recovered_correctly_order1": 98,
+      "discordant": {
+        "only_unknown": 0,
+        "only_known": 2,
+        "both": 98,
+        "neither": 0
+      },
+      "mcnemar_exact_two_sided_p": 0.5,
+      "runtime_s": {
+        "unknown_nonce": 16.156618118286133,
+        "known_nonce_D2_BP": 12.546415328979492
+      },
+      "per_trial": [
+        {
+          "seed": 33000,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33001,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33002,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33003,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33004,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33005,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33006,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33007,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33008,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33009,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33010,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33011,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33012,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33013,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33014,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33015,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33016,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33017,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33018,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33019,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33020,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33021,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33022,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33023,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33024,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33025,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33026,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33027,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33028,
+          "unknown_order1": 1,
+          "unknown_order0": 0,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33029,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33030,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33031,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33032,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33033,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33034,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33035,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33036,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33037,
+          "unknown_order1": 1,
+          "unknown_order0": 0,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33038,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33039,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33040,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33041,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33042,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33043,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33044,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33045,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33046,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33047,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33048,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33049,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33050,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33051,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33052,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33053,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33054,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33055,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33056,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33057,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33058,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33059,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33060,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33061,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33062,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33063,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33064,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33065,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33066,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33067,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33068,
+          "unknown_order1": 0,
+          "unknown_order0": 1,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33069,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33070,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33071,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33072,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33073,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33074,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33075,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33076,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33077,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33078,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33079,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33080,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33081,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33082,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33083,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33084,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33085,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33086,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33087,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33088,
+          "unknown_order1": 1,
+          "unknown_order0": 0,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33089,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33090,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33091,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33092,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33093,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33094,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33095,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33096,
+          "unknown_order1": 1,
+          "unknown_order0": 0,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33097,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33098,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 33099,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        }
+      ]
+    },
+    "0.35": {
+      "n": 100,
+      "known_nonce_D2_BP_successes": 100,
+      "known_nonce_cp95_two_sided": [
+        0.9637833073548235,
+        1.0
+      ],
+      "unknown_nonce_order1_successes": 93,
+      "unknown_nonce_cp95_two_sided": [
+        0.8610802715441427,
+        0.9713947110925613
+      ],
+      "unknown_nonce_order0_successes": 79,
+      "nonce_recovered_correctly_order1": 93,
+      "discordant": {
+        "only_unknown": 0,
+        "only_known": 7,
+        "both": 93,
+        "neither": 0
+      },
+      "mcnemar_exact_two_sided_p": 0.015625,
+      "runtime_s": {
+        "unknown_nonce": 15.1883225440979,
+        "known_nonce_D2_BP": 11.740578651428223
+      },
+      "per_trial": [
+        {
+          "seed": 38000,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38001,
+          "unknown_order1": 1,
+          "unknown_order0": 0,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38002,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38003,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38004,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38005,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38006,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38007,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38008,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38009,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38010,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38011,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38012,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38013,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38014,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38015,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38016,
+          "unknown_order1": 1,
+          "unknown_order0": 0,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38017,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38018,
+          "unknown_order1": 1,
+          "unknown_order0": 0,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38019,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38020,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38021,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38022,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38023,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38024,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38025,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38026,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38027,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38028,
+          "unknown_order1": 1,
+          "unknown_order0": 0,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38029,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38030,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38031,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38032,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38033,
+          "unknown_order1": 1,
+          "unknown_order0": 0,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38034,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38035,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38036,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38037,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38038,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38039,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38040,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38041,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38042,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38043,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38044,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38045,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38046,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38047,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38048,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38049,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38050,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38051,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38052,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38053,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38054,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38055,
+          "unknown_order1": 1,
+          "unknown_order0": 0,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38056,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38057,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38058,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38059,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38060,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38061,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38062,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38063,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38064,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38065,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38066,
+          "unknown_order1": 1,
+          "unknown_order0": 0,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38067,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38068,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38069,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38070,
+          "unknown_order1": 1,
+          "unknown_order0": 0,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38071,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38072,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38073,
+          "unknown_order1": 0,
+          "unknown_order0": 1,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38074,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38075,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38076,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38077,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38078,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38079,
+          "unknown_order1": 1,
+          "unknown_order0": 0,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38080,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38081,
+          "unknown_order1": 1,
+          "unknown_order0": 0,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38082,
+          "unknown_order1": 1,
+          "unknown_order0": 0,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38083,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38084,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38085,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38086,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38087,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38088,
+          "unknown_order1": 1,
+          "unknown_order0": 0,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38089,
+          "unknown_order1": 1,
+          "unknown_order0": 0,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38090,
+          "unknown_order1": 1,
+          "unknown_order0": 0,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38091,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38092,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38093,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38094,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38095,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38096,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38097,
+          "unknown_order1": 1,
+          "unknown_order0": 0,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38098,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 38099,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        }
+      ]
+    },
+    "0.4": {
+      "n": 100,
+      "known_nonce_D2_BP_successes": 100,
+      "known_nonce_cp95_two_sided": [
+        0.9637833073548235,
+        1.0
+      ],
+      "unknown_nonce_order1_successes": 60,
+      "unknown_nonce_cp95_two_sided": [
+        0.49720915042233493,
+        0.6967052312971225
+      ],
+      "unknown_nonce_order0_successes": 44,
+      "nonce_recovered_correctly_order1": 60,
+      "discordant": {
+        "only_unknown": 0,
+        "only_known": 40,
+        "both": 60,
+        "neither": 0
+      },
+      "mcnemar_exact_two_sided_p": 1.8189894035458565e-12,
+      "runtime_s": {
+        "unknown_nonce": 15.244714260101318,
+        "known_nonce_D2_BP": 12.060126543045044
+      },
+      "per_trial": [
+        {
+          "seed": 43000,
+          "unknown_order1": 1,
+          "unknown_order0": 0,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43001,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43002,
+          "unknown_order1": 1,
+          "unknown_order0": 0,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43003,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43004,
+          "unknown_order1": 1,
+          "unknown_order0": 0,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43005,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43006,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43007,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43008,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43009,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43010,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43011,
+          "unknown_order1": 1,
+          "unknown_order0": 0,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43012,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43013,
+          "unknown_order1": 1,
+          "unknown_order0": 0,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43014,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43015,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43016,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43017,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43018,
+          "unknown_order1": 1,
+          "unknown_order0": 0,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43019,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43020,
+          "unknown_order1": 1,
+          "unknown_order0": 0,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43021,
+          "unknown_order1": 1,
+          "unknown_order0": 0,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43022,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43023,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43024,
+          "unknown_order1": 1,
+          "unknown_order0": 0,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43025,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43026,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43027,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43028,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43029,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43030,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43031,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43032,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43033,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43034,
+          "unknown_order1": 1,
+          "unknown_order0": 0,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43035,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43036,
+          "unknown_order1": 1,
+          "unknown_order0": 0,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43037,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43038,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43039,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43040,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43041,
+          "unknown_order1": 1,
+          "unknown_order0": 0,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43042,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43043,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43044,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43045,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43046,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43047,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43048,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43049,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43050,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43051,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43052,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43053,
+          "unknown_order1": 1,
+          "unknown_order0": 0,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43054,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43055,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43056,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43057,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43058,
+          "unknown_order1": 0,
+          "unknown_order0": 1,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43059,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43060,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43061,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43062,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43063,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43064,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43065,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43066,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43067,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43068,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43069,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43070,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43071,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43072,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43073,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43074,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43075,
+          "unknown_order1": 1,
+          "unknown_order0": 0,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43076,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43077,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43078,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43079,
+          "unknown_order1": 1,
+          "unknown_order0": 0,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43080,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43081,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43082,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43083,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43084,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43085,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43086,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43087,
+          "unknown_order1": 1,
+          "unknown_order0": 0,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43088,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43089,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43090,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43091,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43092,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43093,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43094,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43095,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43096,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43097,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43098,
+          "unknown_order1": 1,
+          "unknown_order0": 0,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 43099,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        }
+      ]
+    },
+    "0.45": {
+      "n": 100,
+      "known_nonce_D2_BP_successes": 99,
+      "known_nonce_cp95_two_sided": [
+        0.9455406146079194,
+        0.9997468539670226
+      ],
+      "unknown_nonce_order1_successes": 19,
+      "unknown_nonce_cp95_two_sided": [
+        0.1184431961325437,
+        0.2806979579736124
+      ],
+      "unknown_nonce_order0_successes": 6,
+      "nonce_recovered_correctly_order1": 19,
+      "discordant": {
+        "only_unknown": 0,
+        "only_known": 80,
+        "both": 19,
+        "neither": 1
+      },
+      "mcnemar_exact_two_sided_p": 1.6543612251060553e-24,
+      "runtime_s": {
+        "unknown_nonce": 15.844787120819092,
+        "known_nonce_D2_BP": 12.205006837844849
+      },
+      "per_trial": [
+        {
+          "seed": 48000,
+          "unknown_order1": 1,
+          "unknown_order0": 0,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48001,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48002,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48003,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48004,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48005,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48006,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48007,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48008,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48009,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48010,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48011,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48012,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48013,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48014,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48015,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48016,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48017,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 48018,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48019,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48020,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48021,
+          "unknown_order1": 1,
+          "unknown_order0": 0,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48022,
+          "unknown_order1": 1,
+          "unknown_order0": 0,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48023,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48024,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48025,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48026,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48027,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48028,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48029,
+          "unknown_order1": 1,
+          "unknown_order0": 0,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48030,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48031,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48032,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48033,
+          "unknown_order1": 1,
+          "unknown_order0": 0,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48034,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48035,
+          "unknown_order1": 1,
+          "unknown_order0": 0,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48036,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48037,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48038,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48039,
+          "unknown_order1": 1,
+          "unknown_order0": 0,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48040,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48041,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48042,
+          "unknown_order1": 1,
+          "unknown_order0": 0,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48043,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48044,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48045,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48046,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48047,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48048,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48049,
+          "unknown_order1": 1,
+          "unknown_order0": 0,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48050,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48051,
+          "unknown_order1": 1,
+          "unknown_order0": 0,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48052,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48053,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48054,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48055,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48056,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48057,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48058,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48059,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48060,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48061,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48062,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48063,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48064,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48065,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48066,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48067,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48068,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48069,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48070,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48071,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48072,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48073,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48074,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48075,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48076,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48077,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48078,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48079,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48080,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48081,
+          "unknown_order1": 1,
+          "unknown_order0": 1,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48082,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48083,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48084,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48085,
+          "unknown_order1": 1,
+          "unknown_order0": 0,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48086,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48087,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48088,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48089,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48090,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48091,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48092,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48093,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48094,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48095,
+          "unknown_order1": 1,
+          "unknown_order0": 0,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48096,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48097,
+          "unknown_order1": 1,
+          "unknown_order0": 0,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48098,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 48099,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        }
+      ]
+    },
+    "0.5": {
+      "n": 100,
+      "known_nonce_D2_BP_successes": 90,
+      "known_nonce_cp95_two_sided": [
+        0.8237774022599773,
+        0.9509953107785141
+      ],
+      "unknown_nonce_order1_successes": 2,
+      "unknown_nonce_cp95_two_sided": [
+        0.0024313368239425423,
+        0.07038393247107012
+      ],
+      "unknown_nonce_order0_successes": 0,
+      "nonce_recovered_correctly_order1": 2,
+      "discordant": {
+        "only_unknown": 0,
+        "only_known": 88,
+        "both": 2,
+        "neither": 10
+      },
+      "mcnemar_exact_two_sided_p": 6.462348535570529e-27,
+      "runtime_s": {
+        "unknown_nonce": 15.385973930358887,
+        "known_nonce_D2_BP": 12.305887460708618
+      },
+      "per_trial": [
+        {
+          "seed": 53000,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53001,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53002,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53003,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53004,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53005,
+          "unknown_order1": 1,
+          "unknown_order0": 0,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53006,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53007,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53008,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53009,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53010,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53011,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 53012,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 53013,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53014,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53015,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53016,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53017,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 53018,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53019,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53020,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53021,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53022,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53023,
+          "unknown_order1": 1,
+          "unknown_order0": 0,
+          "nonce_order1": 1,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53024,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53025,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53026,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53027,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53028,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53029,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53030,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53031,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53032,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53033,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53034,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53035,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 53036,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53037,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53038,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53039,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53040,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53041,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53042,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53043,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53044,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53045,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53046,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53047,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53048,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53049,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53050,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53051,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53052,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53053,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53054,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53055,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 53056,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53057,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53058,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53059,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53060,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53061,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53062,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53063,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53064,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53065,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53066,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53067,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53068,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53069,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53070,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53071,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53072,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53073,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53074,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53075,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53076,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 53077,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53078,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53079,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53080,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53081,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 53082,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53083,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53084,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53085,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53086,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53087,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 53088,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53089,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53090,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53091,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53092,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53093,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53094,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53095,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53096,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 53097,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 53098,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 53099,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        }
+      ]
+    },
+    "0.6": {
+      "n": 100,
+      "known_nonce_D2_BP_successes": 38,
+      "known_nonce_cp95_two_sided": [
+        0.28476747614147957,
+        0.4825393057508065
+      ],
+      "unknown_nonce_order1_successes": 0,
+      "unknown_nonce_cp95_two_sided": [
+        0.0,
+        0.03621669264517641
+      ],
+      "unknown_nonce_order0_successes": 0,
+      "nonce_recovered_correctly_order1": 0,
+      "discordant": {
+        "only_unknown": 0,
+        "only_known": 38,
+        "both": 0,
+        "neither": 62
+      },
+      "mcnemar_exact_two_sided_p": 7.275957614183426e-12,
+      "runtime_s": {
+        "unknown_nonce": 15.666882276535034,
+        "known_nonce_D2_BP": 12.098724603652954
+      },
+      "per_trial": [
+        {
+          "seed": 63000,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 63001,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 63002,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 63003,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 63004,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 63005,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 63006,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 63007,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 63008,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 63009,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 63010,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 63011,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 63012,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 63013,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 63014,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 63015,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 63016,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 63017,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 63018,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 63019,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 63020,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 63021,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 63022,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 63023,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 63024,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 63025,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 63026,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 63027,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 63028,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 63029,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 63030,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 63031,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 63032,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 63033,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 63034,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 63035,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 63036,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 63037,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 63038,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 63039,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 63040,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 63041,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 63042,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 63043,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 63044,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 63045,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 63046,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 63047,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 63048,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 63049,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 63050,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 63051,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 63052,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 63053,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 63054,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 63055,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 63056,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 63057,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 63058,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 63059,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 63060,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 63061,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 63062,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 63063,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 63064,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 63065,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 63066,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 63067,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 63068,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 63069,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 63070,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 63071,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 63072,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 63073,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 63074,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 63075,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 63076,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 63077,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 63078,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 63079,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 63080,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 63081,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 63082,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 63083,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 63084,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 63085,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 63086,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 63087,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 63088,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 63089,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 63090,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 63091,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 63092,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 63093,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 63094,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 63095,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 63096,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 63097,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        },
+        {
+          "seed": 63098,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 1
+        },
+        {
+          "seed": 63099,
+          "unknown_order1": 0,
+          "unknown_order0": 0,
+          "nonce_order1": 0,
+          "known_D2_BP": 0
+        }
+      ]
+    }
+  }
+}

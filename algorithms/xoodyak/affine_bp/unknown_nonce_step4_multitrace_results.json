@@ -1,0 +1,296 @@
+{
+  "sigmas": [
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    2.25
+  ],
+  "n_grid": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    10,
+    15,
+    20,
+    30,
+    40,
+    50,
+    60,
+    80,
+    100,
+    150,
+    200
+  ],
+  "n_per_point": 100,
+  "total_elapsed_s": 735.354160785675,
+  "threat_model": "Same as known-nonce multi-trace: key AND nonce fixed across all N traces within one experiment; a new (key,nonce) drawn independently per experiment. N genuine independent noisy draws (chi_bit_graph.leak_ev's n_traces loop), not the effective-noise shortcut. Attacker never uses the true nonce anywhere in selection/solving/scoring.",
+  "known_nonce_D2_BP_first_two_consecutive_for_comparison": {
+    "0.5": 2,
+    "1.0": 8,
+    "1.5": 15,
+    "2.0": 30,
+    "2.25": 50
+  },
+  "results": {
+    "0.5": {
+      "points": {
+        "1": {
+          "successes": 5,
+          "n": 100
+        },
+        "2": {
+          "successes": 90,
+          "n": 100
+        },
+        "3": {
+          "successes": 100,
+          "n": 100
+        },
+        "4": {
+          "successes": 100,
+          "n": 100
+        }
+      },
+      "first_single_100pct": 3,
+      "first_two_consecutive_100pct": 3,
+      "elapsed_s": 57.511043310165405
+    },
+    "1.0": {
+      "points": {
+        "1": {
+          "successes": 0,
+          "n": 100
+        },
+        "2": {
+          "successes": 0,
+          "n": 100
+        },
+        "3": {
+          "successes": 0,
+          "n": 100
+        },
+        "4": {
+          "successes": 2,
+          "n": 100
+        },
+        "5": {
+          "successes": 20,
+          "n": 100
+        },
+        "6": {
+          "successes": 55,
+          "n": 100
+        },
+        "8": {
+          "successes": 89,
+          "n": 100
+        },
+        "10": {
+          "successes": 95,
+          "n": 100
+        },
+        "15": {
+          "successes": 100,
+          "n": 100
+        },
+        "20": {
+          "successes": 100,
+          "n": 100
+        }
+      },
+      "first_single_100pct": 15,
+      "first_two_consecutive_100pct": 15,
+      "elapsed_s": 136.88219046592712
+    },
+    "1.5": {
+      "points": {
+        "1": {
+          "successes": 0,
+          "n": 100
+        },
+        "2": {
+          "successes": 0,
+          "n": 100
+        },
+        "3": {
+          "successes": 0,
+          "n": 100
+        },
+        "4": {
+          "successes": 0,
+          "n": 100
+        },
+        "5": {
+          "successes": 0,
+          "n": 100
+        },
+        "6": {
+          "successes": 0,
+          "n": 100
+        },
+        "8": {
+          "successes": 0,
+          "n": 100
+        },
+        "10": {
+          "successes": 4,
+          "n": 100
+        },
+        "15": {
+          "successes": 68,
+          "n": 100
+        },
+        "20": {
+          "successes": 95,
+          "n": 100
+        },
+        "30": {
+          "successes": 100,
+          "n": 100
+        },
+        "40": {
+          "successes": 100,
+          "n": 100
+        }
+      },
+      "first_single_100pct": 30,
+      "first_two_consecutive_100pct": 30,
+      "elapsed_s": 167.68797612190247
+    },
+    "2.0": {
+      "points": {
+        "1": {
+          "successes": 0,
+          "n": 100
+        },
+        "2": {
+          "successes": 0,
+          "n": 100
+        },
+        "3": {
+          "successes": 0,
+          "n": 100
+        },
+        "4": {
+          "successes": 0,
+          "n": 100
+        },
+        "5": {
+          "successes": 0,
+          "n": 100
+        },
+        "6": {
+          "successes": 0,
+          "n": 100
+        },
+        "8": {
+          "successes": 0,
+          "n": 100
+        },
+        "10": {
+          "successes": 0,
+          "n": 100
+        },
+        "15": {
+          "successes": 0,
+          "n": 100
+        },
+        "20": {
+          "successes": 26,
+          "n": 100
+        },
+        "30": {
+          "successes": 83,
+          "n": 100
+        },
+        "40": {
+          "successes": 98,
+          "n": 100
+        },
+        "50": {
+          "successes": 100,
+          "n": 100
+        },
+        "60": {
+          "successes": 100,
+          "n": 100
+        }
+      },
+      "first_single_100pct": 50,
+      "first_two_consecutive_100pct": 50,
+      "elapsed_s": 165.36487317085266
+    },
+    "2.25": {
+      "points": {
+        "1": {
+          "successes": 0,
+          "n": 100
+        },
+        "2": {
+          "successes": 0,
+          "n": 100
+        },
+        "3": {
+          "successes": 0,
+          "n": 100
+        },
+        "4": {
+          "successes": 0,
+          "n": 100
+        },
+        "5": {
+          "successes": 0,
+          "n": 100
+        },
+        "6": {
+          "successes": 0,
+          "n": 100
+        },
+        "8": {
+          "successes": 0,
+          "n": 100
+        },
+        "10": {
+          "successes": 0,
+          "n": 100
+        },
+        "15": {
+          "successes": 0,
+          "n": 100
+        },
+        "20": {
+          "successes": 0,
+          "n": 100
+        },
+        "30": {
+          "successes": 43,
+          "n": 100
+        },
+        "40": {
+          "successes": 84,
+          "n": 100
+        },
+        "50": {
+          "successes": 97,
+          "n": 100
+        },
+        "60": {
+          "successes": 100,
+          "n": 100
+        },
+        "80": {
+          "successes": 100,
+          "n": 100
+        }
+      },
+      "first_single_100pct": 60,
+      "first_two_consecutive_100pct": 60,
+      "elapsed_s": 207.9080777168274
+    }
+  }
+}

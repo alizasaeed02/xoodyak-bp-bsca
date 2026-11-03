@@ -1,0 +1,216 @@
+{"sigma": 0.5, "seed": 1, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 0.5, "seed": 2, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 0.5, "seed": 3, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 0.5, "seed": 4, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 0.5, "seed": 5, "word": 32, "scenario": "random", "status": "invalid", "reason": "exit 1: AssertionError: encountered a zero sum! contradiction in factor graph?"}
+{"sigma": 0.5, "seed": 6, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 0.5, "seed": 7, "word": 32, "scenario": "random", "status": "invalid", "reason": "exit 1: AssertionError: encountered a zero sum! contradiction in factor graph?"}
+{"sigma": 0.5, "seed": 8, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 0.5, "seed": 9, "word": 32, "scenario": "random", "status": "invalid", "reason": "exit 1: AssertionError: encountered a zero sum! contradiction in factor graph?"}
+{"sigma": 0.5, "seed": 10, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 0.5, "seed": 11, "word": 32, "scenario": "random", "status": "invalid", "reason": "exit 1: AssertionError: encountered a zero sum! contradiction in factor graph?"}
+{"sigma": 0.5, "seed": 12, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 0.5, "seed": 13, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 0.5, "seed": 14, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 0.5, "seed": 15, "word": 32, "scenario": "random", "status": "invalid", "reason": "exit 1: AssertionError: encountered a zero sum! contradiction in factor graph?"}
+{"sigma": 0.5, "seed": 16, "word": 32, "scenario": "random", "status": "invalid", "reason": "exit 1: AssertionError: encountered a zero sum! contradiction in factor graph?"}
+{"sigma": 0.5, "seed": 17, "word": 32, "scenario": "random", "status": "invalid", "reason": "exit 1: AssertionError: encountered a zero sum! contradiction in factor graph?"}
+{"sigma": 0.5, "seed": 18, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 0.5, "seed": 19, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 0.5, "seed": 20, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 0.5, "seed": 21, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 0.5, "seed": 22, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 0.5, "seed": 23, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 0.5, "seed": 24, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 0.5, "seed": 25, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 0.5, "seed": 26, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 0.5, "seed": 27, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 0.5, "seed": 28, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 0.5, "seed": 29, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 0.5, "seed": 30, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 0.5, "seed": 31, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 0.5, "seed": 32, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 0.5, "seed": 33, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 0.5, "seed": 34, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 0.5, "seed": 35, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 0.5, "seed": 36, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 0.5, "seed": 37, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 0.5, "seed": 38, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 1.0, "seed": 1, "word": 32, "scenario": "random", "status": "invalid", "reason": "exit 1: AssertionError: encountered a zero sum! contradiction in factor graph?"}
+{"sigma": 1.0, "seed": 2, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 1.0, "seed": 3, "word": 32, "scenario": "random", "status": "invalid", "reason": "exit 1: AssertionError: encountered a zero sum! contradiction in factor graph?"}
+{"sigma": 1.0, "seed": 4, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 1.0, "seed": 5, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 1.0, "seed": 6, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 1.0, "seed": 7, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 1.0, "seed": 8, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 1.0, "seed": 9, "word": 32, "scenario": "random", "status": "invalid", "reason": "exit 1: AssertionError: encountered a zero sum! contradiction in factor graph?"}
+{"sigma": 1.0, "seed": 10, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 1.0, "seed": 11, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 1.0, "seed": 12, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 1.0, "seed": 13, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 1.0, "seed": 14, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 1.0, "seed": 15, "word": 32, "scenario": "random", "status": "invalid", "reason": "exit 1: AssertionError: encountered a zero sum! contradiction in factor graph?"}
+{"sigma": 1.0, "seed": 16, "word": 32, "scenario": "random", "status": "invalid", "reason": "exit 1: AssertionError: encountered a zero sum! contradiction in factor graph?"}
+{"sigma": 1.0, "seed": 17, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 1.0, "seed": 18, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 1.0, "seed": 19, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 1.0, "seed": 20, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 1.0, "seed": 21, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 1.0, "seed": 22, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 1.0, "seed": 23, "word": 32, "scenario": "random", "status": "invalid", "reason": "exit 1: AssertionError: encountered a zero sum! contradiction in factor graph?"}
+{"sigma": 1.0, "seed": 24, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 1.0, "seed": 25, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 1.0, "seed": 26, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 1.0, "seed": 27, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 1.0, "seed": 28, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 1.0, "seed": 29, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 1.0, "seed": 30, "word": 32, "scenario": "random", "status": "invalid", "reason": "exit 1: AssertionError: encountered a zero sum! contradiction in factor graph?"}
+{"sigma": 1.0, "seed": 31, "word": 32, "scenario": "random", "status": "invalid", "reason": "exit 1: AssertionError: encountered a zero sum! contradiction in factor graph?"}
+{"sigma": 1.0, "seed": 32, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 1.0, "seed": 33, "word": 32, "scenario": "random", "status": "invalid", "reason": "exit 1: AssertionError: encountered a zero sum! contradiction in factor graph?"}
+{"sigma": 1.0, "seed": 34, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 1.0, "seed": 35, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 1.0, "seed": 36, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 1.0, "seed": 37, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 1.0, "seed": 38, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 1.0, "seed": 39, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 1.0, "seed": 40, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 1.5, "seed": 1, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 1.5, "seed": 2, "word": 32, "scenario": "random", "status": "failure", "errors_in": 17, "errors_out": 731, "runtime_s": 5.913119580706451}
+{"sigma": 1.5, "seed": 3, "word": 32, "scenario": "random", "status": "invalid", "reason": "exit 1: AssertionError: encountered a zero sum! contradiction in factor graph?"}
+{"sigma": 1.5, "seed": 4, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 1.5, "seed": 5, "word": 32, "scenario": "random", "status": "failure", "errors_in": 22, "errors_out": 780, "runtime_s": 1.156360524551604}
+{"sigma": 1.5, "seed": 6, "word": 32, "scenario": "random", "status": "invalid", "reason": "exit 1: AssertionError: encountered a zero sum! contradiction in factor graph?"}
+{"sigma": 1.5, "seed": 7, "word": 32, "scenario": "random", "status": "invalid", "reason": "exit 1: AssertionError: encountered a zero sum! contradiction in factor graph?"}
+{"sigma": 1.5, "seed": 8, "word": 32, "scenario": "random", "status": "failure", "errors_in": 39, "errors_out": 679, "runtime_s": 15.61582928052123}
+{"sigma": 1.5, "seed": 9, "word": 32, "scenario": "random", "status": "invalid", "reason": "exit 1: AssertionError: encountered a zero sum! contradiction in factor graph?"}
+{"sigma": 1.5, "seed": 10, "word": 32, "scenario": "random", "status": "failure", "errors_in": 16, "errors_out": 645, "runtime_s": 33.59093535422523}
+{"sigma": 1.5, "seed": 11, "word": 32, "scenario": "random", "status": "failure", "errors_in": 24, "errors_out": 708, "runtime_s": 26.34805834357038}
+{"sigma": 1.5, "seed": 12, "word": 32, "scenario": "random", "status": "failure", "errors_in": 19, "errors_out": 705, "runtime_s": 10.436289423058465}
+{"sigma": 1.5, "seed": 13, "word": 32, "scenario": "random", "status": "failure", "errors_in": 19, "errors_out": 719, "runtime_s": 44.87098880855303}
+{"sigma": 1.5, "seed": 14, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 1.5, "seed": 15, "word": 32, "scenario": "random", "status": "invalid", "reason": "exit 1: AssertionError: encountered a zero sum! contradiction in factor graph?"}
+{"sigma": 1.5, "seed": 16, "word": 32, "scenario": "random", "status": "invalid", "reason": "exit 1: AssertionError: encountered a zero sum! contradiction in factor graph?"}
+{"sigma": 1.5, "seed": 17, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 1.5, "seed": 18, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 1.5, "seed": 19, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 1.5, "seed": 20, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 1.5, "seed": 21, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 1.5, "seed": 22, "word": 32, "scenario": "random", "status": "invalid", "reason": "exit 1: AssertionError: encountered a zero sum! contradiction in factor graph?"}
+{"sigma": 1.5, "seed": 23, "word": 32, "scenario": "random", "status": "failure", "errors_in": 32, "errors_out": 732, "runtime_s": 24.338613167399416}
+{"sigma": 1.5, "seed": 24, "word": 32, "scenario": "random", "status": "invalid", "reason": "exit 1: AssertionError: encountered a zero sum! contradiction in factor graph?"}
+{"sigma": 1.5, "seed": 25, "word": 32, "scenario": "random", "status": "invalid", "reason": "exit 1: AssertionError: encountered a zero sum! contradiction in factor graph?"}
+{"sigma": 1.5, "seed": 26, "word": 32, "scenario": "random", "status": "invalid", "reason": "exit 1: AssertionError: encountered a zero sum! contradiction in factor graph?"}
+{"sigma": 1.5, "seed": 27, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 1.5, "seed": 28, "word": 32, "scenario": "random", "status": "invalid", "reason": "exit 1: AssertionError: encountered a zero sum! contradiction in factor graph?"}
+{"sigma": 1.5, "seed": 29, "word": 32, "scenario": "random", "status": "invalid", "reason": "exit 1: AssertionError: encountered a zero sum! contradiction in factor graph?"}
+{"sigma": 1.5, "seed": 30, "word": 32, "scenario": "random", "status": "invalid", "reason": "exit 1: AssertionError: encountered a zero sum! contradiction in factor graph?"}
+{"sigma": 1.5, "seed": 31, "word": 32, "scenario": "random", "status": "failure", "errors_in": 23, "errors_out": 722, "runtime_s": 3.724310654406164}
+{"sigma": 1.5, "seed": 32, "word": 32, "scenario": "random", "status": "failure", "errors_in": 24, "errors_out": 754, "runtime_s": 4.689747862010226}
+{"sigma": 1.5, "seed": 33, "word": 32, "scenario": "random", "status": "invalid", "reason": "exit 1: AssertionError: encountered a zero sum! contradiction in factor graph?"}
+{"sigma": 1.5, "seed": 34, "word": 32, "scenario": "random", "status": "failure", "errors_in": 22, "errors_out": 754, "runtime_s": 1.0872945915134073}
+{"sigma": 1.5, "seed": 35, "word": 32, "scenario": "random", "status": "failure", "errors_in": 18, "errors_out": 755, "runtime_s": 7.570640270636784}
+{"sigma": 1.5, "seed": 36, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 1.5, "seed": 37, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 1.5, "seed": 38, "word": 32, "scenario": "random", "status": "failure", "errors_in": 20, "errors_out": 789, "runtime_s": 1.7411195426042942}
+{"sigma": 1.5, "seed": 39, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 1.5, "seed": 40, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 1.5, "seed": 41, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 1.5, "seed": 42, "word": 32, "scenario": "random", "status": "failure", "errors_in": 23, "errors_out": 715, "runtime_s": 14.88650447765037}
+{"sigma": 1.5, "seed": 43, "word": 32, "scenario": "random", "status": "success", "errors_in": 0, "errors_out": 0, "runtime_s": 0.0}
+{"sigma": 1.5, "seed": 44, "word": 32, "scenario": "random", "status": "invalid", "reason": "exit 1: AssertionError: encountered a zero sum! contradiction in factor graph?"}
+{"sigma": 1.5, "seed": 45, "word": 32, "scenario": "random", "status": "failure", "errors_in": 31, "errors_out": 700, "runtime_s": 30.46108452850656}
+{"sigma": 1.5, "seed": 46, "word": 32, "scenario": "random", "status": "invalid", "reason": "exit 1: AssertionError: encountered a zero sum! contradiction in factor graph?"}
+{"sigma": 2.0, "seed": 1, "word": 32, "scenario": "random", "status": "failure", "errors_in": 28, "errors_out": 724, "runtime_s": 27.9486744591064}
+{"sigma": 2.0, "seed": 2, "word": 32, "scenario": "random", "status": "failure", "errors_in": 29, "errors_out": 728, "runtime_s": 23.98647235049954}
+{"sigma": 2.0, "seed": 3, "word": 32, "scenario": "random", "status": "failure", "errors_in": 32, "errors_out": 694, "runtime_s": 58.11867864749493}
+{"sigma": 2.0, "seed": 4, "word": 32, "scenario": "random", "status": "failure", "errors_in": 32, "errors_out": 698, "runtime_s": 62.15213927220215}
+{"sigma": 2.0, "seed": 5, "word": 32, "scenario": "random", "status": "failure", "errors_in": 30, "errors_out": 703, "runtime_s": 84.24164140955548}
+{"sigma": 2.0, "seed": 6, "word": 32, "scenario": "random", "status": "failure", "errors_in": 24, "errors_out": 747, "runtime_s": 4.633632003873695}
+{"sigma": 2.0, "seed": 7, "word": 32, "scenario": "random", "status": "failure", "errors_in": 25, "errors_out": 689, "runtime_s": 39.63135640830138}
+{"sigma": 2.0, "seed": 8, "word": 32, "scenario": "random", "status": "failure", "errors_in": 36, "errors_out": 707, "runtime_s": 37.331013137886664}
+{"sigma": 2.0, "seed": 9, "word": 32, "scenario": "random", "status": "failure", "errors_in": 27, "errors_out": 698, "runtime_s": 50.33166083669314}
+{"sigma": 2.0, "seed": 10, "word": 32, "scenario": "random", "status": "failure", "errors_in": 26, "errors_out": 680, "runtime_s": 66.59979394767662}
+{"sigma": 2.0, "seed": 11, "word": 32, "scenario": "random", "status": "failure", "errors_in": 32, "errors_out": 695, "runtime_s": 69.39906120536803}
+{"sigma": 2.0, "seed": 12, "word": 32, "scenario": "random", "status": "failure", "errors_in": 25, "errors_out": 766, "runtime_s": 22.483134126837744}
+{"sigma": 2.0, "seed": 13, "word": 32, "scenario": "random", "status": "failure", "errors_in": 29, "errors_out": 736, "runtime_s": 76.97858838291594}
+{"sigma": 2.0, "seed": 14, "word": 32, "scenario": "random", "status": "failure", "errors_in": 23, "errors_out": 757, "runtime_s": 5.175596149093511}
+{"sigma": 2.0, "seed": 15, "word": 32, "scenario": "random", "status": "failure", "errors_in": 14, "errors_out": 719, "runtime_s": 43.614834619166615}
+{"sigma": 2.0, "seed": 16, "word": 32, "scenario": "random", "status": "failure", "errors_in": 34, "errors_out": 699, "runtime_s": 71.0566414959558}
+{"sigma": 2.0, "seed": 17, "word": 32, "scenario": "random", "status": "failure", "errors_in": 21, "errors_out": 677, "runtime_s": 51.502575391943864}
+{"sigma": 2.0, "seed": 18, "word": 32, "scenario": "random", "status": "failure", "errors_in": 21, "errors_out": 702, "runtime_s": 59.71439502395348}
+{"sigma": 2.0, "seed": 19, "word": 32, "scenario": "random", "status": "failure", "errors_in": 21, "errors_out": 680, "runtime_s": 48.388483734629126}
+{"sigma": 2.0, "seed": 20, "word": 32, "scenario": "random", "status": "failure", "errors_in": 20, "errors_out": 640, "runtime_s": 65.02533878549636}
+{"sigma": 2.0, "seed": 21, "word": 32, "scenario": "random", "status": "failure", "errors_in": 18, "errors_out": 693, "runtime_s": 60.37655863681503}
+{"sigma": 2.0, "seed": 22, "word": 32, "scenario": "random", "status": "failure", "errors_in": 24, "errors_out": 717, "runtime_s": 40.14002298433599}
+{"sigma": 2.0, "seed": 23, "word": 32, "scenario": "random", "status": "failure", "errors_in": 29, "errors_out": 666, "runtime_s": 60.10464572164065}
+{"sigma": 2.0, "seed": 24, "word": 32, "scenario": "random", "status": "failure", "errors_in": 29, "errors_out": 706, "runtime_s": 57.36116840164034}
+{"sigma": 2.0, "seed": 25, "word": 32, "scenario": "random", "status": "failure", "errors_in": 30, "errors_out": 693, "runtime_s": 49.30627745374052}
+{"sigma": 2.0, "seed": 26, "word": 32, "scenario": "random", "status": "failure", "errors_in": 19, "errors_out": 722, "runtime_s": 7.452607854262232}
+{"sigma": 2.0, "seed": 27, "word": 32, "scenario": "random", "status": "failure", "errors_in": 17, "errors_out": 643, "runtime_s": 39.77361491579752}
+{"sigma": 2.0, "seed": 28, "word": 32, "scenario": "random", "status": "failure", "errors_in": 52, "errors_out": 784, "runtime_s": 9.87895903949582}
+{"sigma": 2.0, "seed": 29, "word": 32, "scenario": "random", "status": "invalid", "reason": "exit 1: AssertionError: encountered a zero sum! contradiction in factor graph?"}
+{"sigma": 2.0, "seed": 30, "word": 32, "scenario": "random", "status": "failure", "errors_in": 34, "errors_out": 722, "runtime_s": 52.602417412147695}
+{"sigma": 2.0, "seed": 31, "word": 32, "scenario": "random", "status": "failure", "errors_in": 29, "errors_out": 692, "runtime_s": 43.3071100762279}
+{"sigma": 2.0, "seed": 32, "word": 32, "scenario": "random", "status": "failure", "errors_in": 22, "errors_out": 713, "runtime_s": 53.75553582389268}
+{"sigma": 2.5, "seed": 1, "word": 32, "scenario": "random", "status": "failure", "errors_in": 26, "errors_out": 686, "runtime_s": 87.45467701199235}
+{"sigma": 2.5, "seed": 2, "word": 32, "scenario": "random", "status": "failure", "errors_in": 24, "errors_out": 712, "runtime_s": 86.55700457905402}
+{"sigma": 2.5, "seed": 3, "word": 32, "scenario": "random", "status": "failure", "errors_in": 32, "errors_out": 708, "runtime_s": 85.47493146451362}
+{"sigma": 2.5, "seed": 4, "word": 32, "scenario": "random", "status": "failure", "errors_in": 41, "errors_out": 701, "runtime_s": 96.53032372170982}
+{"sigma": 2.5, "seed": 5, "word": 32, "scenario": "random", "status": "failure", "errors_in": 37, "errors_out": 700, "runtime_s": 96.38618549811633}
+{"sigma": 2.5, "seed": 6, "word": 32, "scenario": "random", "status": "failure", "errors_in": 25, "errors_out": 697, "runtime_s": 75.18601718381046}
+{"sigma": 2.5, "seed": 7, "word": 32, "scenario": "random", "status": "failure", "errors_in": 24, "errors_out": 680, "runtime_s": 77.50371449535575}
+{"sigma": 2.5, "seed": 8, "word": 32, "scenario": "random", "status": "failure", "errors_in": 35, "errors_out": 683, "runtime_s": 67.02696400174797}
+{"sigma": 2.5, "seed": 9, "word": 32, "scenario": "random", "status": "failure", "errors_in": 30, "errors_out": 701, "runtime_s": 69.6632186829908}
+{"sigma": 2.5, "seed": 10, "word": 32, "scenario": "random", "status": "failure", "errors_in": 28, "errors_out": 672, "runtime_s": 82.76714453231281}
+{"sigma": 2.5, "seed": 11, "word": 32, "scenario": "random", "status": "failure", "errors_in": 37, "errors_out": 710, "runtime_s": 83.32806715986789}
+{"sigma": 2.5, "seed": 12, "word": 32, "scenario": "random", "status": "failure", "errors_in": 24, "errors_out": 703, "runtime_s": 73.50204066198111}
+{"sigma": 2.5, "seed": 13, "word": 32, "scenario": "random", "status": "failure", "errors_in": 35, "errors_out": 732, "runtime_s": 90.42241666740281}
+{"sigma": 2.5, "seed": 14, "word": 32, "scenario": "random", "status": "failure", "errors_in": 24, "errors_out": 695, "runtime_s": 85.11107674990892}
+{"sigma": 2.5, "seed": 15, "word": 32, "scenario": "random", "status": "failure", "errors_in": 24, "errors_out": 700, "runtime_s": 83.50688428523948}
+{"sigma": 2.5, "seed": 16, "word": 32, "scenario": "random", "status": "failure", "errors_in": 37, "errors_out": 717, "runtime_s": 88.33765064250923}
+{"sigma": 2.5, "seed": 17, "word": 32, "scenario": "random", "status": "failure", "errors_in": 26, "errors_out": 682, "runtime_s": 78.8116344280116}
+{"sigma": 2.5, "seed": 18, "word": 32, "scenario": "random", "status": "failure", "errors_in": 21, "errors_out": 714, "runtime_s": 86.28318070212397}
+{"sigma": 2.5, "seed": 19, "word": 32, "scenario": "random", "status": "failure", "errors_in": 24, "errors_out": 679, "runtime_s": 79.20260287694188}
+{"sigma": 2.5, "seed": 20, "word": 32, "scenario": "random", "status": "failure", "errors_in": 26, "errors_out": 660, "runtime_s": 84.80641866239648}
+{"sigma": 2.5, "seed": 21, "word": 32, "scenario": "random", "status": "failure", "errors_in": 27, "errors_out": 697, "runtime_s": 84.34600484950832}
+{"sigma": 2.5, "seed": 22, "word": 32, "scenario": "random", "status": "failure", "errors_in": 25, "errors_out": 706, "runtime_s": 77.81367528307852}
+{"sigma": 2.5, "seed": 23, "word": 32, "scenario": "random", "status": "failure", "errors_in": 35, "errors_out": 677, "runtime_s": 85.27735903778796}
+{"sigma": 2.5, "seed": 24, "word": 32, "scenario": "random", "status": "failure", "errors_in": 36, "errors_out": 707, "runtime_s": 82.06045856003122}
+{"sigma": 2.5, "seed": 25, "word": 32, "scenario": "random", "status": "failure", "errors_in": 33, "errors_out": 702, "runtime_s": 80.04490300573427}
+{"sigma": 2.5, "seed": 26, "word": 32, "scenario": "random", "status": "failure", "errors_in": 19, "errors_out": 668, "runtime_s": 51.85110028103165}
+{"sigma": 2.5, "seed": 27, "word": 32, "scenario": "random", "status": "failure", "errors_in": 22, "errors_out": 665, "runtime_s": 78.57525374962313}
+{"sigma": 2.5, "seed": 28, "word": 32, "scenario": "random", "status": "failure", "errors_in": 40, "errors_out": 709, "runtime_s": 77.60079730927953}
+{"sigma": 2.5, "seed": 29, "word": 32, "scenario": "random", "status": "failure", "errors_in": 30, "errors_out": 693, "runtime_s": 84.13552068277328}
+{"sigma": 2.5, "seed": 30, "word": 32, "scenario": "random", "status": "failure", "errors_in": 41, "errors_out": 713, "runtime_s": 78.63568986642981}
+{"sigma": 3.0, "seed": 1, "word": 32, "scenario": "random", "status": "failure", "errors_in": 30, "errors_out": 701, "runtime_s": 97.51021300322998}
+{"sigma": 3.0, "seed": 2, "word": 32, "scenario": "random", "status": "failure", "errors_in": 31, "errors_out": 718, "runtime_s": 97.29527787647537}
+{"sigma": 3.0, "seed": 3, "word": 32, "scenario": "random", "status": "failure", "errors_in": 34, "errors_out": 716, "runtime_s": 94.120799138214}
+{"sigma": 3.0, "seed": 4, "word": 32, "scenario": "random", "status": "failure", "errors_in": 50, "errors_out": 709, "runtime_s": 103.87674831757582}
+{"sigma": 3.0, "seed": 5, "word": 32, "scenario": "random", "status": "failure", "errors_in": 40, "errors_out": 719, "runtime_s": 105.42178065523332}
+{"sigma": 3.0, "seed": 6, "word": 32, "scenario": "random", "status": "failure", "errors_in": 31, "errors_out": 712, "runtime_s": 85.97221314810491}
+{"sigma": 3.0, "seed": 7, "word": 32, "scenario": "random", "status": "failure", "errors_in": 26, "errors_out": 703, "runtime_s": 90.42809687440338}
+{"sigma": 3.0, "seed": 8, "word": 32, "scenario": "random", "status": "failure", "errors_in": 34, "errors_out": 682, "runtime_s": 83.07691908855193}
+{"sigma": 3.0, "seed": 9, "word": 32, "scenario": "random", "status": "failure", "errors_in": 32, "errors_out": 708, "runtime_s": 88.24795616042978}
+{"sigma": 3.0, "seed": 10, "word": 32, "scenario": "random", "status": "failure", "errors_in": 28, "errors_out": 673, "runtime_s": 94.56705041143911}
+{"sigma": 3.0, "seed": 11, "word": 32, "scenario": "random", "status": "failure", "errors_in": 41, "errors_out": 722, "runtime_s": 92.25354887627292}
+{"sigma": 3.0, "seed": 12, "word": 32, "scenario": "random", "status": "failure", "errors_in": 28, "errors_out": 704, "runtime_s": 88.98036048367742}
+{"sigma": 3.0, "seed": 13, "word": 32, "scenario": "random", "status": "failure", "errors_in": 36, "errors_out": 736, "runtime_s": 100.03401724162039}
+{"sigma": 3.0, "seed": 14, "word": 32, "scenario": "random", "status": "failure", "errors_in": 30, "errors_out": 704, "runtime_s": 94.67587610984728}
+{"sigma": 3.0, "seed": 15, "word": 32, "scenario": "random", "status": "failure", "errors_in": 27, "errors_out": 701, "runtime_s": 94.5603641292684}
+{"sigma": 3.0, "seed": 16, "word": 32, "scenario": "random", "status": "failure", "errors_in": 40, "errors_out": 729, "runtime_s": 97.59081752576206}
+{"sigma": 3.0, "seed": 17, "word": 32, "scenario": "random", "status": "failure", "errors_in": 31, "errors_out": 696, "runtime_s": 90.79570034338948}
+{"sigma": 3.0, "seed": 18, "word": 32, "scenario": "random", "status": "failure", "errors_in": 27, "errors_out": 731, "runtime_s": 97.2302800992239}
+{"sigma": 3.0, "seed": 19, "word": 32, "scenario": "random", "status": "failure", "errors_in": 35, "errors_out": 686, "runtime_s": 90.6215627229551}
+{"sigma": 3.0, "seed": 20, "word": 32, "scenario": "random", "status": "failure", "errors_in": 30, "errors_out": 672, "runtime_s": 96.08201326422174}
+{"sigma": 3.0, "seed": 21, "word": 32, "scenario": "random", "status": "failure", "errors_in": 32, "errors_out": 705, "runtime_s": 91.94510870168443}
+{"sigma": 3.0, "seed": 22, "word": 32, "scenario": "random", "status": "failure", "errors_in": 30, "errors_out": 722, "runtime_s": 90.4838942327341}
+{"sigma": 3.0, "seed": 23, "word": 32, "scenario": "random", "status": "failure", "errors_in": 38, "errors_out": 690, "runtime_s": 95.99114694245382}
+{"sigma": 3.0, "seed": 24, "word": 32, "scenario": "random", "status": "failure", "errors_in": 40, "errors_out": 723, "runtime_s": 93.51174114948927}
+{"sigma": 3.0, "seed": 25, "word": 32, "scenario": "random", "status": "failure", "errors_in": 36, "errors_out": 706, "runtime_s": 91.86986960430774}
+{"sigma": 3.0, "seed": 26, "word": 32, "scenario": "random", "status": "failure", "errors_in": 22, "errors_out": 693, "runtime_s": 77.84709317387774}
+{"sigma": 3.0, "seed": 27, "word": 32, "scenario": "random", "status": "failure", "errors_in": 31, "errors_out": 688, "runtime_s": 92.28795101511083}
+{"sigma": 3.0, "seed": 28, "word": 32, "scenario": "random", "status": "failure", "errors_in": 42, "errors_out": 720, "runtime_s": 89.9109752638075}
+{"sigma": 3.0, "seed": 29, "word": 32, "scenario": "random", "status": "failure", "errors_in": 38, "errors_out": 708, "runtime_s": 97.78605597864434}
+{"sigma": 3.0, "seed": 30, "word": 32, "scenario": "random", "status": "failure", "errors_in": 42, "errors_out": 715, "runtime_s": 91.96103187676987}
