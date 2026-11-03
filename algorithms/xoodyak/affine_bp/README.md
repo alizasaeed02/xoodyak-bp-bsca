@@ -1,3 +1,5 @@
+Note: The results reported in the paper come from final_single_trace_grid.py, final_multitrace_grid.py and the unknown_nonce_* scripts in this folder, which use ordered-statistics decoding. The rest of this file describes an earlier version that solved for the key from a fixed set of rows; its numbers are kept for reference only.
+
 # Xoodyak full key recovery — corrected chi-only + affine-decode design
 
 Implements belief propagation restricted to Xoodyak's nonlinear $\chi$ step
